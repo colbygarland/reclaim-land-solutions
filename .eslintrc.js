@@ -1,11 +1,8 @@
 module.exports = {
   root: true,
   extends: ['eslint:recommended', 'airbnb', 'airbnb/hooks'],
-  env: {
-    'jest/globals': true,
-  },
   parser: '@typescript-eslint/parser',
-  plugins: ['@typescript-eslint', 'jest'],
+  plugins: ['@typescript-eslint'],
   rules: {
     'comma-dangle': ['warn', 'always-multiline'],
     'react/jsx-filename-extension': [2, { extensions: ['.js', '.jsx', '.ts', '.tsx'] }],
@@ -21,7 +18,6 @@ module.exports = {
       },
     ],
     'react/jsx-props-no-spreading': 'off',
-    'lines-between-class-members': 'never',
     'max-len': {
       code: 160,
     },
