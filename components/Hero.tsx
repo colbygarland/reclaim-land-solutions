@@ -31,7 +31,8 @@ export const Hero = ({
   buttonText?: string;
 }) => {
   return (
-    <div className="bg-primary-500 text-white px-4 py-32 relative lg:py-64">
+    <div className="text-white px-4 py-40 relative lg:py-64">
+      <div className="bg-primary-900 opacity-50 absolute inset-0 z-20 h-full w-full" />
       <div className="z-20 relative drop-shadow-md container mx-auto">
         <H1>{title}</H1>
         <P>{description}</P>
