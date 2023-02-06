@@ -12,7 +12,7 @@ export default function Home() {
         <Hero
           title="Reclaim Land Solutions LTD"
           description="We take unstable, or underutilized land, and help create solutions to increase productivity."
-          media="/video-placeholder.mov"
+          media="/video-placeholder.mp4"
           isVideo
           buttonLink="/services"
           buttonText="Our Services"

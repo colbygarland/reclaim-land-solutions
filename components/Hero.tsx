@@ -5,7 +5,7 @@ import { P } from './P';
 const Media = ({ src, alt, isVideo }: { src: string; alt?: string; isVideo?: boolean }) => {
   if (isVideo) {
     return (
-      <video autoPlay loop className="absolute z-10 top-0 left-0 h-full w-full object-cover">
+      <video autoPlay muted loop className="absolute z-10 top-0 left-0 h-full w-full object-cover">
         <source src={src} />
       </video>
     );
@@ -32,7 +32,6 @@ export const Hero = ({
 }) => {
   return (
     <div className="text-white px-4 py-40 relative lg:py-64">
-      <div className="bg-primary-900 opacity-50 absolute inset-0 z-20 h-full w-full" />
       <div className="z-20 relative drop-shadow-md container mx-auto">
         <H1>{title}</H1>
         <P>{description}</P>
