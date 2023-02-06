@@ -43,72 +43,72 @@
 
 "@next/env@13.1.6":
   version "13.1.6"
-  resolved "https://artifactory.hootops.com:443/artifactory/api/npm/hootsuite-npm/@next/env/-/env-13.1.6.tgz#c4925609f16142ded1a5cb833359ab17359b7a93"
+  resolved "https://registry.yarnpkg.com/@next/env/-/env-13.1.6.tgz#c4925609f16142ded1a5cb833359ab17359b7a93"
   integrity sha512-s+W9Fdqh5MFk6ECrbnVmmAOwxKQuhGMT7xXHrkYIBMBcTiOqNWhv5KbJIboKR5STXxNXl32hllnvKaffzFaWQg==
 
 "@next/swc-android-arm-eabi@13.1.6":
   version "13.1.6"
-  resolved "https://artifactory.hootops.com:443/artifactory/api/npm/hootsuite-npm/@next/swc-android-arm-eabi/-/swc-android-arm-eabi-13.1.6.tgz#d766dfc10e27814d947b20f052067c239913dbcc"
+  resolved "https://registry.yarnpkg.com/@next/swc-android-arm-eabi/-/swc-android-arm-eabi-13.1.6.tgz#d766dfc10e27814d947b20f052067c239913dbcc"
   integrity sha512-F3/6Z8LH/pGlPzR1AcjPFxx35mPqjE5xZcf+IL+KgbW9tMkp7CYi1y7qKrEWU7W4AumxX/8OINnDQWLiwLasLQ==
 
 "@next/swc-android-arm64@13.1.6":
   version "13.1.6"
-  resolved "https://artifactory.hootops.com:443/artifactory/api/npm/hootsuite-npm/@next/swc-android-arm64/-/swc-android-arm64-13.1.6.tgz#f37a98d5f18927d8c9970d750d516ac779465176"
+  resolved "https://registry.yarnpkg.com/@next/swc-android-arm64/-/swc-android-arm64-13.1.6.tgz#f37a98d5f18927d8c9970d750d516ac779465176"
   integrity sha512-cMwQjnB8vrYkWyK/H0Rf2c2pKIH4RGjpKUDvbjVAit6SbwPDpmaijLio0LWFV3/tOnY6kvzbL62lndVA0mkYpw==
 
 "@next/swc-darwin-arm64@13.1.6":
   version "13.1.6"
-  resolved "https://artifactory.hootops.com:443/artifactory/api/npm/hootsuite-npm/@next/swc-darwin-arm64/-/swc-darwin-arm64-13.1.6.tgz#ec1b90fd9bf809d8b81004c5182e254dced4ad96"
+  resolved "https://registry.yarnpkg.com/@next/swc-darwin-arm64/-/swc-darwin-arm64-13.1.6.tgz#ec1b90fd9bf809d8b81004c5182e254dced4ad96"
   integrity sha512-KKRQH4DDE4kONXCvFMNBZGDb499Hs+xcFAwvj+rfSUssIDrZOlyfJNy55rH5t2Qxed1e4K80KEJgsxKQN1/fyw==
 
 "@next/swc-darwin-x64@13.1.6":
   version "13.1.6"
-  resolved "https://artifactory.hootops.com:443/artifactory/api/npm/hootsuite-npm/@next/swc-darwin-x64/-/swc-darwin-x64-13.1.6.tgz#e869ac75d16995eee733a7d1550322d9051c1eb4"
+  resolved "https://registry.yarnpkg.com/@next/swc-darwin-x64/-/swc-darwin-x64-13.1.6.tgz#e869ac75d16995eee733a7d1550322d9051c1eb4"
   integrity sha512-/uOky5PaZDoaU99ohjtNcDTJ6ks/gZ5ykTQDvNZDjIoCxFe3+t06bxsTPY6tAO6uEAw5f6vVFX5H5KLwhrkZCA==
 
 "@next/swc-freebsd-x64@13.1.6":
   version "13.1.6"
-  resolved "https://artifactory.hootops.com:443/artifactory/api/npm/hootsuite-npm/@next/swc-freebsd-x64/-/swc-freebsd-x64-13.1.6.tgz#84a7b2e423a2904afc2edca21c2f1ba6b53fa4c1"
+  resolved "https://registry.yarnpkg.com/@next/swc-freebsd-x64/-/swc-freebsd-x64-13.1.6.tgz#84a7b2e423a2904afc2edca21c2f1ba6b53fa4c1"
   integrity sha512-qaEALZeV7to6weSXk3Br80wtFQ7cFTpos/q+m9XVRFggu+8Ib895XhMWdJBzew6aaOcMvYR6KQ6JmHA2/eMzWw==
 
 "@next/swc-linux-arm-gnueabihf@13.1.6":
   version "13.1.6"
-  resolved "https://artifactory.hootops.com:443/artifactory/api/npm/hootsuite-npm/@next/swc-linux-arm-gnueabihf/-/swc-linux-arm-gnueabihf-13.1.6.tgz#980eed1f655ff8a72187d8a6ef9e73ac39d20d23"
+  resolved "https://registry.yarnpkg.com/@next/swc-linux-arm-gnueabihf/-/swc-linux-arm-gnueabihf-13.1.6.tgz#980eed1f655ff8a72187d8a6ef9e73ac39d20d23"
   integrity sha512-OybkbC58A1wJ+JrJSOjGDvZzrVEQA4sprJejGqMwiZyLqhr9Eo8FXF0y6HL+m1CPCpPhXEHz/2xKoYsl16kNqw==
 
 "@next/swc-linux-arm64-gnu@13.1.6":
   version "13.1.6"
-  resolved "https://artifactory.hootops.com:443/artifactory/api/npm/hootsuite-npm/@next/swc-linux-arm64-gnu/-/swc-linux-arm64-gnu-13.1.6.tgz#87a71db21cded3f7c63d1d19079845c59813c53d"
+  resolved "https://registry.yarnpkg.com/@next/swc-linux-arm64-gnu/-/swc-linux-arm64-gnu-13.1.6.tgz#87a71db21cded3f7c63d1d19079845c59813c53d"
   integrity sha512-yCH+yDr7/4FDuWv6+GiYrPI9kcTAO3y48UmaIbrKy8ZJpi7RehJe3vIBRUmLrLaNDH3rY1rwoHi471NvR5J5NQ==
 
 "@next/swc-linux-arm64-musl@13.1.6":
   version "13.1.6"
-  resolved "https://artifactory.hootops.com:443/artifactory/api/npm/hootsuite-npm/@next/swc-linux-arm64-musl/-/swc-linux-arm64-musl-13.1.6.tgz#c5aac8619331b9fd030603bbe2b36052011e11de"
+  resolved "https://registry.yarnpkg.com/@next/swc-linux-arm64-musl/-/swc-linux-arm64-musl-13.1.6.tgz#c5aac8619331b9fd030603bbe2b36052011e11de"
   integrity sha512-ECagB8LGX25P9Mrmlc7Q/TQBb9rGScxHbv/kLqqIWs2fIXy6Y/EiBBiM72NTwuXUFCNrWR4sjUPSooVBJJ3ESQ==
 
 "@next/swc-linux-x64-gnu@13.1.6":
   version "13.1.6"
-  resolved "https://artifactory.hootops.com:443/artifactory/api/npm/hootsuite-npm/@next/swc-linux-x64-gnu/-/swc-linux-x64-gnu-13.1.6.tgz#9513d36d540bbfea575576746736054c31aacdea"
+  resolved "https://registry.yarnpkg.com/@next/swc-linux-x64-gnu/-/swc-linux-x64-gnu-13.1.6.tgz#9513d36d540bbfea575576746736054c31aacdea"
   integrity sha512-GT5w2mruk90V/I5g6ScuueE7fqj/d8Bui2qxdw6lFxmuTgMeol5rnzAv4uAoVQgClOUO/MULilzlODg9Ib3Y4Q==
 
 "@next/swc-linux-x64-musl@13.1.6":
   version "13.1.6"
-  resolved "https://artifactory.hootops.com:443/artifactory/api/npm/hootsuite-npm/@next/swc-linux-x64-musl/-/swc-linux-x64-musl-13.1.6.tgz#d61fc6884899f5957251f4ce3f522e34a2c479b7"
+  resolved "https://registry.yarnpkg.com/@next/swc-linux-x64-musl/-/swc-linux-x64-musl-13.1.6.tgz#d61fc6884899f5957251f4ce3f522e34a2c479b7"
   integrity sha512-keFD6KvwOPzmat4TCnlnuxJCQepPN+8j3Nw876FtULxo8005Y9Ghcl7ACcR8GoiKoddAq8gxNBrpjoxjQRHeAQ==
 
 "@next/swc-win32-arm64-msvc@13.1.6":
   version "13.1.6"
-  resolved "https://artifactory.hootops.com:443/artifactory/api/npm/hootsuite-npm/@next/swc-win32-arm64-msvc/-/swc-win32-arm64-msvc-13.1.6.tgz#fac2077a8ae9768e31444c9ae90807e64117cda7"
+  resolved "https://registry.yarnpkg.com/@next/swc-win32-arm64-msvc/-/swc-win32-arm64-msvc-13.1.6.tgz#fac2077a8ae9768e31444c9ae90807e64117cda7"
   integrity sha512-OwertslIiGQluFvHyRDzBCIB07qJjqabAmINlXUYt7/sY7Q7QPE8xVi5beBxX/rxTGPIbtyIe3faBE6Z2KywhQ==
 
 "@next/swc-win32-ia32-msvc@13.1.6":
   version "13.1.6"
-  resolved "https://artifactory.hootops.com:443/artifactory/api/npm/hootsuite-npm/@next/swc-win32-ia32-msvc/-/swc-win32-ia32-msvc-13.1.6.tgz#498bc11c91b4c482a625bf4b978f98ae91111e46"
+  resolved "https://registry.yarnpkg.com/@next/swc-win32-ia32-msvc/-/swc-win32-ia32-msvc-13.1.6.tgz#498bc11c91b4c482a625bf4b978f98ae91111e46"
   integrity sha512-g8zowiuP8FxUR9zslPmlju7qYbs2XBtTLVSxVikPtUDQedhcls39uKYLvOOd1JZg0ehyhopobRoH1q+MHlIN/w==
 
 "@next/swc-win32-x64-msvc@13.1.6":
   version "13.1.6"
-  resolved "https://artifactory.hootops.com:443/artifactory/api/npm/hootsuite-npm/@next/swc-win32-x64-msvc/-/swc-win32-x64-msvc-13.1.6.tgz#17ed919c723426b7d0ce1cd73d40ce3dcd342089"
+  resolved "https://registry.yarnpkg.com/@next/swc-win32-x64-msvc/-/swc-win32-x64-msvc-13.1.6.tgz#17ed919c723426b7d0ce1cd73d40ce3dcd342089"
   integrity sha512-Ls2OL9hi3YlJKGNdKv8k3X/lLgc3VmLG3a/DeTkAd+lAituJp8ZHmRmm9f9SL84fT3CotlzcgbdaCDfFwFA6bA==
 
 "@nodelib/fs.scandir@2.1.4":
@@ -134,7 +134,7 @@
 
 "@swc/helpers@0.4.14":
   version "0.4.14"
-  resolved "https://artifactory.hootops.com:443/artifactory/api/npm/hootsuite-npm/@swc/helpers/-/helpers-0.4.14.tgz#1352ac6d95e3617ccb7c1498ff019654f1e12a74"
+  resolved "https://registry.yarnpkg.com/@swc/helpers/-/helpers-0.4.14.tgz#1352ac6d95e3617ccb7c1498ff019654f1e12a74"
   integrity sha512-4C7nX/dvpzB7za4Ql9K81xK3HPxCpHMgwTZVyf+9JQ6VUbn9jjZVN7/Nkdz/Ugzs2CSjqnL/UPXroiVBVHUWUw==
   dependencies:
     tslib "^2.4.0"
@@ -151,7 +151,7 @@
 
 "@types/react-icons@^3.0.0":
   version "3.0.0"
-  resolved "https://artifactory.hootops.com:443/artifactory/api/npm/hootsuite-npm/@types/react-icons/-/react-icons-3.0.0.tgz#27ca2823a6add881d06a371bfff093afc1b9c829"
+  resolved "https://registry.yarnpkg.com/@types/react-icons/-/react-icons-3.0.0.tgz#27ca2823a6add881d06a371bfff093afc1b9c829"
   integrity sha512-Vefs6LkLqF61vfV7AiAqls+vpR94q67gunhMueDznG+msAkrYgRxl7gYjNem/kZ+as2l2mNChmF1jRZzzQQtMg==
   dependencies:
     react-icons "*"
@@ -371,7 +371,7 @@ chokidar@^3.5.3:
 
 client-only@0.0.1:
   version "0.0.1"
-  resolved "https://artifactory.hootops.com:443/artifactory/api/npm/hootsuite-npm/client-only/-/client-only-0.0.1.tgz#38bba5d403c41ab150bff64a95c85013cf73bca1"
+  resolved "https://registry.yarnpkg.com/client-only/-/client-only-0.0.1.tgz#38bba5d403c41ab150bff64a95c85013cf73bca1"
   integrity sha512-IV3Ou0jSMzZrd3pZ48nLkT9DA7Ag1pnPzaiQhpW7c3RbcqqzvzzVu+L8gfqMp/8IM2MQtSiqaCxrrcfu8I8rMA==
 
 color-convert@^2.0.1:
@@ -1217,7 +1217,7 @@ micromatch@^4.0.4:
 
 micromatch@^4.0.5:
   version "4.0.5"
-  resolved "https://artifactory.hootops.com:443/artifactory/api/npm/hootsuite-npm/micromatch/-/micromatch-4.0.5.tgz#bc8999a7cbbf77cdc89f132f6e467051b49090c6"
+  resolved "https://registry.yarnpkg.com/micromatch/-/micromatch-4.0.5.tgz#bc8999a7cbbf77cdc89f132f6e467051b49090c6"
   integrity sha512-DMy+ERcEW2q8Z2Po+WNXuw3c5YaUSFjAO5GsJqfEl7UjvtIuFKO6ZrKvcItdy98dwFI2N1tg3zNIdKaQT+aNdA==
   dependencies:
     braces "^3.0.2"
@@ -1259,7 +1259,7 @@ natural-compare@^1.4.0:
 
 next@^13.1.6:
   version "13.1.6"
-  resolved "https://artifactory.hootops.com:443/artifactory/api/npm/hootsuite-npm/next/-/next-13.1.6.tgz#054babe20b601f21f682f197063c9b0b32f1a27c"
+  resolved "https://registry.yarnpkg.com/next/-/next-13.1.6.tgz#054babe20b601f21f682f197063c9b0b32f1a27c"
   integrity sha512-hHlbhKPj9pW+Cymvfzc15lvhaOZ54l+8sXDXJWm3OBNBzgrVj6hwGPmqqsXg40xO1Leq+kXpllzRPuncpC0Phw==
   dependencies:
     "@next/env" "13.1.6"
@@ -1464,7 +1464,7 @@ picomatch@^2.2.3:
 
 picomatch@^2.3.1:
   version "2.3.1"
-  resolved "https://artifactory.hootops.com:443/artifactory/api/npm/hootsuite-npm/picomatch/-/picomatch-2.3.1.tgz#3ba3833733646d9d3e4995946c1365a67fb07a42"
+  resolved "https://registry.yarnpkg.com/picomatch/-/picomatch-2.3.1.tgz#3ba3833733646d9d3e4995946c1365a67fb07a42"
   integrity sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==
 
 pify@^2.3.0:
@@ -1498,7 +1498,7 @@ postcss-load-config@^3.1.4:
 
 postcss-nested@6.0.0:
   version "6.0.0"
-  resolved "https://artifactory.hootops.com:443/artifactory/api/npm/hootsuite-npm/postcss-nested/-/postcss-nested-6.0.0.tgz#1572f1984736578f360cffc7eb7dca69e30d1735"
+  resolved "https://registry.yarnpkg.com/postcss-nested/-/postcss-nested-6.0.0.tgz#1572f1984736578f360cffc7eb7dca69e30d1735"
   integrity sha512-0DkamqrPcmkBDsLn+vQDIrtkSbNkv5AD/M322ySo9kqFkCIYklym2xEmWkwo+Y3/qZo34tzEPNUw4y7yMCdv5w==
   dependencies:
     postcss-selector-parser "^6.0.10"
@@ -1536,7 +1536,7 @@ postcss@^8.4.16:
 
 postcss@^8.4.18:
   version "8.4.21"
-  resolved "https://artifactory.hootops.com:443/artifactory/api/npm/hootsuite-npm/postcss/-/postcss-8.4.21.tgz#c639b719a57efc3187b13a1d765675485f4134f4"
+  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.4.21.tgz#c639b719a57efc3187b13a1d765675485f4134f4"
   integrity sha512-tP7u/Sn/dVxK2NnruI4H9BG+x+Wxz6oeZ1cJ8P6G/PZY0IKk4k/63TDsQf2kQq3+qoJeLm2kIBUNlZe3zgb4Zg==
   dependencies:
     nanoid "^3.3.4"
@@ -1579,7 +1579,7 @@ quick-lru@^5.1.1:
 
 react-dom@^18.2.0:
   version "18.2.0"
-  resolved "https://artifactory.hootops.com:443/artifactory/api/npm/hootsuite-npm/react-dom/-/react-dom-18.2.0.tgz#22aaf38708db2674ed9ada224ca4aa708d821e3d"
+  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-18.2.0.tgz#22aaf38708db2674ed9ada224ca4aa708d821e3d"
   integrity sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g==
   dependencies:
     loose-envify "^1.1.0"
@@ -1587,7 +1587,7 @@ react-dom@^18.2.0:
 
 react-icons@*, react-icons@^4.7.1:
   version "4.7.1"
-  resolved "https://artifactory.hootops.com:443/artifactory/api/npm/hootsuite-npm/react-icons/-/react-icons-4.7.1.tgz#0f4b25a5694e6972677cb189d2a72eabea7a8345"
+  resolved "https://registry.yarnpkg.com/react-icons/-/react-icons-4.7.1.tgz#0f4b25a5694e6972677cb189d2a72eabea7a8345"
   integrity sha512-yHd3oKGMgm7zxo3EA7H2n7vxSoiGmHk5t6Ou4bXsfcgWyhfDKMpyKfhHR6Bjnn63c+YXBLBPUql9H4wPJM6sXw==
 
 react-is@^16.13.1:
@@ -1597,7 +1597,7 @@ react-is@^16.13.1:
 
 react@^18.2.0:
   version "18.2.0"
-  resolved "https://artifactory.hootops.com:443/artifactory/api/npm/hootsuite-npm/react/-/react-18.2.0.tgz#555bd98592883255fa00de14f1151a917b5d77d5"
+  resolved "https://registry.yarnpkg.com/react/-/react-18.2.0.tgz#555bd98592883255fa00de14f1151a917b5d77d5"
   integrity sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ==
   dependencies:
     loose-envify "^1.1.0"
@@ -1785,7 +1785,7 @@ strip-json-comments@^3.1.0, strip-json-comments@^3.1.1:
 
 styled-jsx@5.1.1:
   version "5.1.1"
-  resolved "https://artifactory.hootops.com:443/artifactory/api/npm/hootsuite-npm/styled-jsx/-/styled-jsx-5.1.1.tgz#839a1c3aaacc4e735fed0781b8619ea5d0009d1f"
+  resolved "https://registry.yarnpkg.com/styled-jsx/-/styled-jsx-5.1.1.tgz#839a1c3aaacc4e735fed0781b8619ea5d0009d1f"
   integrity sha512-pW7uC1l4mBZ8ugbiZrcIsiIvVx1UmTfw7UkC3Um2tmfUq9Bhk8IiyEIPl6F8agHgjzku6j0xQEZbfA5uSgSaCw==
   dependencies:
     client-only "0.0.1"
@@ -1804,7 +1804,7 @@ supports-preserve-symlinks-flag@^1.0.0:
 
 tailwindcss@^3.2.4:
   version "3.2.4"
-  resolved "https://artifactory.hootops.com:443/artifactory/api/npm/hootsuite-npm/tailwindcss/-/tailwindcss-3.2.4.tgz#afe3477e7a19f3ceafb48e4b083e292ce0dc0250"
+  resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-3.2.4.tgz#afe3477e7a19f3ceafb48e4b083e292ce0dc0250"
   integrity sha512-AhwtHCKMtR71JgeYDaswmZXhPcW9iuI9Sp2LvZPo9upDZ7231ZJ7eA9RaURbhpXGVlrjX4cFNlB4ieTetEb7hQ==
   dependencies:
     arg "^5.0.2"
