@@ -61,6 +61,17 @@ export default function Home() {
       <Section type="secondary">
         <H2>Frequently Asked Questions</H2>
       </Section>
+      <Section backgroundImage="/placeholder-image-5.jpg">
+        <Popout
+          title="Why us?"
+          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua."
+          imageSrc="/image-placeholder-4.avif"
+          imageAlt="Mulcher"
+          imageAlignment="right"
+          color="white"
+        />
+      </Section>
     </>
   );
 }

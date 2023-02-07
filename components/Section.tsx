@@ -1,6 +1,4 @@
 import React from 'react';
-import { CONTAINER_HORIZONTAL_PADDING } from '../theme/spacing';
-
 type SectionType = 'primary' | 'secondary';
 type SectionPadding = 'none' | 'top' | 'bottom' | 'default';
 
@@ -26,18 +24,26 @@ export const Section = ({
   children,
   type,
   padding = 'default',
+  backgroundImage = '',
 }: {
   children: React.ReactNode;
   type?: SectionType;
   padding?: SectionPadding;
+  backgroundImage?: string;
 }) => {
   return (
     <section
-      className={`container mx-auto ${CONTAINER_HORIZONTAL_PADDING} ${getVerticalPadding(padding)} ${
-        type ? sectionType[type] : null
+      className={`relative container mx-auto px-8 lg:px-16 ${getVerticalPadding(padding)} ${
+        type ? sectionType[type] : ''
       }`}
     >
-      {children}
+      {backgroundImage && (
+        <div className="absolute h-full w-full inset-0 z-10">
+          <div className="bg-gray-900 opacity-30 h-full w-full absolute" />
+          <img src={backgroundImage} alt="" className="h-full w-full inset-0 object-cover" />
+        </div>
+      )}
+      <div className={`z-20 relative ${backgroundImage && 'shadow'}`}>{children}</div>
     </section>
   );
 };
