@@ -31,15 +31,17 @@ export const Hero = ({
   buttonText?: string;
 }) => {
   return (
-    <div className="text-white px-4 py-40 relative lg:py-64">
+    <div className="text-white px-4 py-40 relative lg:py-80">
       <div className="z-20 relative drop-shadow-md container mx-auto">
-        <H1>{title}</H1>
-        <P>{description}</P>
-        {buttonLink && (
-          <div className="my-6">
-            <Button href={buttonLink}>{buttonText}</Button>
-          </div>
-        )}
+        <div className="lg:max-w-2xl">
+          <H1>{title}</H1>
+          <P>{description}</P>
+          {buttonLink && (
+            <div className="my-6">
+              <Button href={buttonLink}>{buttonText}</Button>
+            </div>
+          )}
+        </div>
       </div>
       {media && <Media src={media} alt={mediaAlt} isVideo={isVideo} />}
     </div>
