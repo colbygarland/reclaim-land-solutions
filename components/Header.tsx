@@ -12,8 +12,11 @@ const Logo = () => {
 
 const MenuItem = ({ href, children }: { href: string; children: string }) => {
   return (
-    <li className="p-10">
-      <Link className="transition duration-100 block text-white hover:text-gray-400 font-bold text-5xl" href={href}>
+    <li className="p-10 lg:p-0 lg:px-6">
+      <Link
+        className="transition duration-100 block text-white hover:text-gray-400 font-bold text-5xl lg:text-lg lg:text-gray-700"
+        href={href}
+      >
         {children}
       </Link>
     </li>
@@ -26,7 +29,7 @@ export const Header = () => {
   const NavButton = () => {
     return (
       <button
-        className={`ml-auto mr-6 text-2xl ${isMenuVisible && 'text-white text-3xl'}`}
+        className={`lg:hidden ml-auto mr-6 text-2xl ${isMenuVisible && 'text-white text-3xl'}`}
         onClick={() => setMenuVisible(!isMenuVisible)}
       >
         {isMenuVisible ? <FaLongArrowAltLeft /> : <FaStream />}
@@ -35,27 +38,27 @@ export const Header = () => {
   };
 
   return (
-    <header className="py-4 relative">
-      <div className="flex items-center justify-center">
+    <header className="p-4 relative lg:flex lg:items-center lg:justify-between">
+      <div className="flex items-center justify-center lg:justify-between">
         <Logo />
         {!isMenuVisible && <NavButton />}
       </div>
 
       <nav
-        className={`transition duration-200 fixed h-full w-full inset-0  ${
+        className={`transition duration-200 fixed h-full w-full inset-0 ${
           isMenuVisible ? 'visible z-50' : 'invisible'
-        }`}
+        } lg:visible lg:z-auto lg:relative lg:flex lg:items-center lg:h-auto lg:w-auto lg:mr-12`}
       >
         <div
-          className="bg-primary-900 opacity-90 absolute inset-0 w-full h-full"
+          className="lg:hidden bg-primary-900 opacity-90 absolute inset-0 w-full h-full"
           onClick={() => setMenuVisible(false)}
         />
         {isMenuVisible && (
-          <div className="absolute top-6 right-0 z-[70]">
+          <div className="absolute top-6 right-0 z-[70] lg:hidden">
             <NavButton />
           </div>
         )}
-        <ul className="relative z-[60] mt-10">
+        <ul className="relative z-[60] mt-10 lg:flex lg:ml-auto lg:mt-0">
           <MenuItem href="/">Home</MenuItem>
           <MenuItem href="/about">About</MenuItem>
           <MenuItem href="/services">Services</MenuItem>
