@@ -1,4 +1,5 @@
 import React from 'react';
+import { CONTAINER_HORIZONTAL_PADDING, CONTAINER_VERTICAL_PADDING } from '../theme/spacing';
 
 type SectionType = 'primary' | 'secondary';
 
@@ -8,5 +9,13 @@ const sectionType = {
 };
 
 export const Section = ({ children, type }: { children: React.ReactNode; type?: SectionType }) => {
-  return <section className={`container mx-auto px-4 py-8 ${type ? sectionType[type] : null}`}>{children}</section>;
+  return (
+    <section
+      className={`container mx-auto ${CONTAINER_HORIZONTAL_PADDING} ${CONTAINER_VERTICAL_PADDING} ${
+        type ? sectionType[type] : null
+      }`}
+    >
+      {children}
+    </section>
+  );
 };

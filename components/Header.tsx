@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { useState } from 'react';
 import { FaLongArrowAltLeft, FaStream } from 'react-icons/fa';
+import { CONTAINER_HORIZONTAL_PADDING } from '../theme/spacing';
 
 const Logo = () => {
   return (
@@ -14,7 +15,7 @@ const MenuItem = ({ href, children }: { href: string; children: string }) => {
   return (
     <li className="p-10 lg:p-0 lg:px-6">
       <Link
-        className="transition duration-100 block text-white hover:text-gray-400 font-bold text-5xl lg:text-lg lg:text-gray-700"
+        className="transition duration-100 block text-white hover:text-gray-400 font-bold text-5xl lg:text-lg"
         href={href}
       >
         {children}
@@ -39,7 +40,9 @@ export const Header = () => {
 
   return (
     <div className="lg:flex lg:justify-center">
-      <header className="p-4 relative lg:flex lg:items-center lg:justify-between lg:fixed lg:z-[100] lg:w-full lg:container lg:bg-primary-800/60">
+      <header
+        className={`p-4 relative lg:flex lg:items-center lg:justify-between lg:fixed lg:z-[100] lg:w-full lg:container lg:bg-primary-800/60 ${CONTAINER_HORIZONTAL_PADDING}`}
+      >
         <div className="flex items-center justify-center lg:justify-between">
           <Logo />
           {!isMenuVisible && <NavButton />}
