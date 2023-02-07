@@ -11,7 +11,12 @@ const Media = ({ src, alt, isVideo }: { src: string; alt?: string; isVideo?: boo
       </video>
     );
   }
-  return <img src={src} alt={alt ? alt : 'Reclaim Land Solutions'} />;
+  return (
+    <div className="absolute z-10 top-0 left-0 h-full w-full">
+      <div className="bg-black/20 h-full w-full absolute" />
+      <img className="h-full w-full object-cover" src={src} alt={alt ? alt : 'Reclaim Land Solutions'} />
+    </div>
+  );
 };
 
 export const Hero = ({

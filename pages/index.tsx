@@ -39,6 +39,7 @@ export default function Home() {
           reclaim and work the land they already own."
           imageSrc="/placeholder-image.jpeg"
           imageAlt="Mulcher"
+          button={<Button href="/contact">Book a Demo</Button>}
         />
       </Section>
       <Section padding="bottom">

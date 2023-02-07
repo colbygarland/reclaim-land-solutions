@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import React from 'react';
 import { H2, H3 } from './Headings';
 import { P } from './P';
 
@@ -8,6 +9,7 @@ export const MediaBlock = ({
   title,
   subtitle,
   description,
+  button,
   imageSrc,
   imageAlt,
   imageAlignment = 'left',
@@ -15,6 +17,7 @@ export const MediaBlock = ({
   title: string;
   subtitle?: string;
   description: string;
+  button?: React.ReactNode;
   imageSrc: string;
   imageAlt: string;
   imageAlignment?: ImageAlignment;
@@ -32,6 +35,7 @@ export const MediaBlock = ({
         )}
         <H2>{title}</H2>
         <P>{description}</P>
+        {button && button}
       </div>
     </div>
   );
