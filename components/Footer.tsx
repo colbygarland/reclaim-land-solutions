@@ -2,7 +2,7 @@ import { Section } from './Section';
 
 export const Footer = () => {
   return (
-    <footer className="bg-primary-500 text-white py-3">
+    <footer className="bg-primary-600 text-white py-3">
       <Section padding="none">
         <p>
           <small>

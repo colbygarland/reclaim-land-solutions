@@ -3,6 +3,7 @@ import { H2, H3 } from '../components/Headings';
 import { Hero } from '../components/Hero';
 import { MediaBlock } from '../components/MediaBlock';
 import { P } from '../components/P';
+import { Popout } from '../components/Popout';
 import { Section } from '../components/Section';
 
 export default function Home() {
@@ -28,12 +29,37 @@ export default function Home() {
       <Section padding="bottom">
         <MediaBlock
           title="What do we do?"
+          subtitle="Reclaim Your Land"
           description="With the ever increasing cost of agricultural land, farmers want to utilize every acre available. Whether it
           is trees, brush, or low laying wet areas, Reclaim Land Solutions wants to provide farmers with the ability to
           reclaim and work the land they already own."
           imageSrc="/placeholder-image.jpeg"
           imageAlt="Mulcher"
         />
+      </Section>
+      <Section padding="bottom">
+        <Popout
+          title="Why us?"
+          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua."
+          imageSrc="/placeholder-image-2.jpeg"
+          imageAlt="Mulcher"
+        />
+      </Section>
+      <Section padding="bottom">
+        <MediaBlock
+          title="Lorem Ipsum"
+          subtitle="Consectetur adipiscing"
+          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          "
+          imageSrc="/placeholder-image-3.png"
+          imageAlt="Mulcher"
+          imageAlignment="right"
+        />
+      </Section>
+      <Section type="secondary">
+        <H2>Frequently Asked Questions</H2>
       </Section>
     </>
   );
