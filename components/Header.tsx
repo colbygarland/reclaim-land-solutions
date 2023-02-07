@@ -15,7 +15,7 @@ const MenuItem = ({ href, children }: { href: string; children: string }) => {
   return (
     <li className="p-10 lg:p-0 lg:px-6">
       <Link
-        className="transition duration-100 block text-white hover:text-gray-400 font-bold text-5xl lg:text-lg"
+        className="transition duration-100 block text-white lg:text-black hover:text-gray-400 font-bold text-5xl lg:text-lg"
         href={href}
       >
         {children}
@@ -41,7 +41,7 @@ export const Header = () => {
   return (
     <div className="lg:flex lg:justify-center">
       <header
-        className={`p-4 relative lg:fixed lg:z-[100] lg:w-full lg:bg-primary-800/60 ${CONTAINER_HORIZONTAL_PADDING}`}
+        className={`shadow p-4 relative lg:fixed lg:z-[100] lg:w-full lg:bg-white/90 ${CONTAINER_HORIZONTAL_PADDING}`}
       >
         <div className="lg:mx-auto lg:container lg:flex lg:items-center lg:justify-between">
           <div className="flex items-center justify-center lg:justify-between">
