@@ -24,8 +24,12 @@ export const MediaBlock = ({
       <div className={`mb-4 ${imageAlignment === 'left' ? 'lg:order-1' : 'lg:order-2'}`}>
         <Image alt={imageAlt} src={imageSrc} width={600} height={450} />
       </div>
-      <div className={`${imageAlignment === 'left' ? 'lg:order-2' : 'lg:order-1'}`}>
-        {subtitle && <H3>{subtitle}</H3>}
+      <div className={`${imageAlignment === 'left' ? 'lg:order-2' : 'lg:order-'}`}>
+        {subtitle && (
+          <H3>
+            <span className="text-primary-600">{subtitle}</span>
+          </H3>
+        )}
         <H2>{title}</H2>
         <P>{description}</P>
       </div>

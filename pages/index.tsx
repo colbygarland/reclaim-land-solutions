@@ -1,10 +1,12 @@
 import { Button } from '../components/Button';
+import { FAQ } from '../components/FAQ';
 import { H2, H3 } from '../components/Headings';
 import { Hero } from '../components/Hero';
 import { MediaBlock } from '../components/MediaBlock';
 import { P } from '../components/P';
 import { Popout } from '../components/Popout';
 import { Section } from '../components/Section';
+import { FAQs } from '../data/faqs';
 
 export default function Home() {
   return (
@@ -18,7 +20,9 @@ export default function Home() {
         buttonText="Our Services"
       />
       <Section>
-        <H3>Who are we?</H3>
+        <H3>
+          <span className="text-primary-600">Who are we?</span>
+        </H3>
         <H2>Better Mulchers, Continuously Innovated.</H2>
         <P>
           Decades of research and innovation that has been tested in some real harsh environments. There is a need for
@@ -58,8 +62,15 @@ export default function Home() {
           imageAlignment="right"
         />
       </Section>
-      <Section type="secondary">
+      <Section padding="bottom">
+        <H3>What kind of Mulchers?</H3>
         <H2>Frequently Asked Questions</H2>
+        <div className="mt-10">
+          {FAQs.map(({ question, answer }) => {
+            return <FAQ key={question} question={question} answer={answer} />;
+          })}
+        </div>
+        <Button href="/about">View More</Button>
       </Section>
       <Section backgroundImage="/placeholder-image-5.jpg">
         <Popout

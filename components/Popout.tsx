@@ -20,7 +20,7 @@ export const Popout = ({
   color?: Color;
 }) => {
   return (
-    <div className={`${color === 'primary' ? 'bg-primary-600' : 'bg-white'}`}>
+    <div className={`${color === 'primary' ? 'bg-primary-600' : 'bg-white'} shadow-lg`}>
       <div className="lg:grid lg:grid-cols-3">
         <div className={imageAlignment === 'left' ? 'lg:order-1' : 'lg:order-2'}>
           <Image height={600} width={600} src={imageSrc} alt={imageAlt} className="lg:h-full lg:object-cover" />

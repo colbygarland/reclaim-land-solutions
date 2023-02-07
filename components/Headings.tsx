@@ -14,5 +14,9 @@ export const H2 = ({ children }: { children: React.ReactNode }) => {
 };
 
 export const H3 = ({ children }: { children: React.ReactNode }) => {
-  return <h3 className="text-xl mb-3 font-bold text-primary-500">{children}</h3>;
+  return <h3 className="text-xl mb-3 font-bold">{children}</h3>;
+};
+
+export const H4 = ({ children }: { children: React.ReactNode }) => {
+  return <h3 className="text-lg mb-3 font-bold">{children}</h3>;
 };
