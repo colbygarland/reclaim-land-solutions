@@ -1,11 +1,12 @@
 import { FaDollarSign } from 'react-icons/fa'
-import { Button } from '../components/Button'
+import { FAQ } from '../components/FAQ'
 import { H2, H3 } from '../components/Headings'
 import { Hero } from '../components/Hero'
 import { IconCard } from '../components/IconCard'
 import { MediaBlock } from '../components/MediaBlock'
 import { P } from '../components/P'
 import { Section } from '../components/Section'
+import { FAQs } from '../data/faqs'
 
 export default function About() {
   return (
@@ -47,14 +48,12 @@ export default function About() {
         />
       </Section>
       <Section type="tertiary">
-        <MediaBlock
-          title="Our Mulchers"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-          imageSrc="/placeholder-image.jpeg"
-          imageAlt="Reclaim Land Solutions"
-          imageAlignment="right"
-          button={<Button href="/services">View Mulchers</Button>}
-        />
+        <div id="faqs">
+          <H2>Frequently Asked Questions</H2>
+          {FAQs.map(({ question, answer }) => {
+            return <FAQ key={question} question={question} answer={answer} />
+          })}
+        </div>
       </Section>
     </>
   )

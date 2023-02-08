@@ -73,7 +73,7 @@ export default function Home() {
             return <FAQ key={question} question={question} answer={answer} />
           })}
         </div>
-        <Button href="/about">View More</Button>
+        <Button href="/about#faqs">View More</Button>
       </Section>
       <Section backgroundImage="/placeholder-image-5.jpg">
         <Popout
