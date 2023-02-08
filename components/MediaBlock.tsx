@@ -1,9 +1,9 @@
-import Image from 'next/image';
-import React from 'react';
-import { H2, H3 } from './Headings';
-import { P } from './P';
+import Image from 'next/image'
+import React from 'react'
+import { H2, H3 } from './Headings'
+import { P } from './P'
 
-type ImageAlignment = 'left' | 'right';
+type ImageAlignment = 'left' | 'right'
 
 export const MediaBlock = ({
   title,
@@ -14,13 +14,13 @@ export const MediaBlock = ({
   imageAlt,
   imageAlignment = 'left',
 }: {
-  title: string;
-  subtitle?: string;
-  description: string;
-  button?: React.ReactNode;
-  imageSrc: string;
-  imageAlt: string;
-  imageAlignment?: ImageAlignment;
+  title: string
+  subtitle?: string
+  description: string
+  button?: React.ReactNode
+  imageSrc: string
+  imageAlt: string
+  imageAlignment?: ImageAlignment
 }) => {
   return (
     <div className="lg:grid lg:grid-cols-2 lg:gap-16 lg:items-center">
@@ -38,5 +38,5 @@ export const MediaBlock = ({
         {button && button}
       </div>
     </div>
-  );
-};
+  )
+}

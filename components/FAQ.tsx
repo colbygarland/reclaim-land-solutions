@@ -1,9 +1,9 @@
-import { useState } from 'react';
-import { FaMinus, FaPlus } from 'react-icons/fa';
-import { P } from './P';
+import { useState } from 'react'
+import { FaMinus, FaPlus } from 'react-icons/fa'
+import { P } from './P'
 
 export const FAQ = ({ question, answer }: { question: string; answer: string }) => {
-  const [expanded, setExpanded] = useState(false);
+  const [expanded, setExpanded] = useState(false)
 
   return (
     <div className="mb-6 pb-6 border-b-gray-200 border-b-2">
@@ -18,5 +18,5 @@ export const FAQ = ({ question, answer }: { question: string; answer: string }) 
         </div>
       )}
     </div>
-  );
-};
+  )
+}

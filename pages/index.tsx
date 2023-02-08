@@ -1,12 +1,12 @@
-import { Button } from '../components/Button';
-import { FAQ } from '../components/FAQ';
-import { H2, H3 } from '../components/Headings';
-import { Hero } from '../components/Hero';
-import { MediaBlock } from '../components/MediaBlock';
-import { P } from '../components/P';
-import { Popout } from '../components/Popout';
-import { Section } from '../components/Section';
-import { FAQs } from '../data/faqs';
+import { Button } from '../components/Button'
+import { FAQ } from '../components/FAQ'
+import { H2, H3 } from '../components/Headings'
+import { Hero } from '../components/Hero'
+import { MediaBlock } from '../components/MediaBlock'
+import { P } from '../components/P'
+import { Popout } from '../components/Popout'
+import { Section } from '../components/Section'
+import { FAQs } from '../data/faqs'
 
 export default function Home() {
   return (
@@ -70,7 +70,7 @@ export default function Home() {
         <H2>Frequently Asked Questions</H2>
         <div className="mt-10">
           {FAQs.map(({ question, answer }) => {
-            return <FAQ key={question} question={question} answer={answer} />;
+            return <FAQ key={question} question={question} answer={answer} />
           })}
         </div>
         <Button href="/about">View More</Button>
@@ -87,5 +87,5 @@ export default function Home() {
         />
       </Section>
     </>
-  );
+  )
 }

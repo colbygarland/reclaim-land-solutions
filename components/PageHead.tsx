@@ -1,11 +1,11 @@
-import Head from 'next/head';
+import Head from 'next/head'
 
 interface PageHeadProps {
-  title?: string;
-  description?: string;
+  title?: string
+  description?: string
 }
 
-const DEFAULT_DESCRIPTION = '';
+const DEFAULT_DESCRIPTION = ''
 
 export const PageHead = ({
   title = 'Reclaim Land Solutions LTD',
@@ -23,5 +23,5 @@ export const PageHead = ({
         <link rel="manifest" href="/site.webmanifest" />
       </Head>
     </>
-  );
-};
+  )
+}

@@ -1,4 +1,4 @@
-import { Section } from './Section';
+import { Section } from './Section'
 
 export const Footer = () => {
   return (
@@ -18,5 +18,5 @@ export const Footer = () => {
         </p>
       </Section>
     </footer>
-  );
-};
+  )
+}

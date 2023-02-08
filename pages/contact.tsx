@@ -1,4 +1,4 @@
-import { Hero } from '../components/Hero';
+import { Hero } from '../components/Hero'
 
 export default function Contact() {
   return (
@@ -9,5 +9,5 @@ export default function Contact() {
       buttonLink="/services"
       buttonText="Our Services"
     />
-  );
+  )
 }

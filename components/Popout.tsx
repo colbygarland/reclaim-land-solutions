@@ -1,8 +1,8 @@
-import Image from 'next/image';
-import { H3, H2 } from './Headings';
+import Image from 'next/image'
+import { H3, H2 } from './Headings'
 
-type ImageAlignment = 'left' | 'right';
-type Color = 'primary' | 'white';
+type ImageAlignment = 'left' | 'right'
+type Color = 'primary' | 'white'
 
 export const Popout = ({
   title,
@@ -12,12 +12,12 @@ export const Popout = ({
   imageAlignment = 'left',
   color = 'primary',
 }: {
-  title: string;
-  description: string;
-  imageSrc: string;
-  imageAlt: string;
-  imageAlignment?: ImageAlignment;
-  color?: Color;
+  title: string
+  description: string
+  imageSrc: string
+  imageAlt: string
+  imageAlignment?: ImageAlignment
+  color?: Color
 }) => {
   return (
     <div className={`${color === 'primary' ? 'bg-primary-600' : 'bg-white'} shadow-lg`}>
@@ -36,5 +36,5 @@ export const Popout = ({
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
