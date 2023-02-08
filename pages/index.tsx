@@ -64,7 +64,9 @@ export default function Home() {
         />
       </Section>
       <Section padding="bottom">
-        <H3>What kind of Mulchers?</H3>
+        <H3>
+          <span className="text-primary-600">What kind of Mulchers?</span>
+        </H3>
         <H2>Frequently Asked Questions</H2>
         <div className="mt-10">
           {FAQs.map(({ question, answer }) => {

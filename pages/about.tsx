@@ -1,13 +1,61 @@
-import { Hero } from '../components/Hero';
+import { FaDollarSign } from 'react-icons/fa'
+import { Button } from '../components/Button'
+import { H2, H3 } from '../components/Headings'
+import { Hero } from '../components/Hero'
+import { IconCard } from '../components/IconCard'
+import { MediaBlock } from '../components/MediaBlock'
+import { P } from '../components/P'
+import { Section } from '../components/Section'
 
 export default function About() {
   return (
-    <Hero
-      title="About Us"
-      description="We take unstable, or underutilized land, and help create solutions to increase productivity."
-      media="/placeholder-image-5.jpg"
-      buttonLink="/services"
-      buttonText="Our Services"
-    />
-  );
+    <>
+      <Hero title="About Us" media="/placeholder-image-5.jpg" condensed />
+      <Section type="tertiary">
+        <H3>
+          <span className="text-primary-600">Who are we?</span>
+        </H3>
+        <H2>Reclaim Land Solutions</H2>
+        <P>We take unstable, or underutilized land, and help create solutions to increase productivity.</P>
+      </Section>
+      <Section>
+        <H2>Our Services</H2>
+        <div className="md:grid md:grid-cols-3 md:gap-8">
+          <IconCard
+            title="Service Number One"
+            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            icon={<FaDollarSign />}
+          />
+          <IconCard
+            title="Service Number Two"
+            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            icon={<FaDollarSign />}
+          />
+          <IconCard
+            title="Service Number Three"
+            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            icon={<FaDollarSign />}
+          />
+        </div>
+      </Section>
+      <Section padding="bottom">
+        <MediaBlock
+          title="Our Story"
+          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          imageSrc="/placeholder-image-2.jpeg"
+          imageAlt="Reclaim Land Solutions"
+        />
+      </Section>
+      <Section type="tertiary">
+        <MediaBlock
+          title="Our Mulchers"
+          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          imageSrc="/placeholder-image.jpeg"
+          imageAlt="Reclaim Land Solutions"
+          imageAlignment="right"
+          button={<Button href="/services">View Mulchers</Button>}
+        />
+      </Section>
+    </>
+  )
 }

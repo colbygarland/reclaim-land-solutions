@@ -1,15 +1,15 @@
-import Link from 'next/link';
-import { useState } from 'react';
-import { FaLongArrowAltLeft, FaStream } from 'react-icons/fa';
-import { CONTAINER_HORIZONTAL_PADDING } from '../theme/spacing';
+import Link from 'next/link'
+import { useState } from 'react'
+import { FaBars, FaLongArrowAltLeft } from 'react-icons/fa'
+import { CONTAINER_HORIZONTAL_PADDING } from '../theme/spacing'
 
 const Logo = () => {
   return (
     <Link href="/">
       <img src="/reclaim-land-solutions-logo.png" alt="Reclaim Land Solutions LTD" className="mx-auto w-52" />
     </Link>
-  );
-};
+  )
+}
 
 const MenuItem = ({ href, children }: { href: string; children: string }) => {
   return (
@@ -21,11 +21,11 @@ const MenuItem = ({ href, children }: { href: string; children: string }) => {
         {children}
       </Link>
     </li>
-  );
-};
+  )
+}
 
 export const Header = () => {
-  const [isMenuVisible, setMenuVisible] = useState(false);
+  const [isMenuVisible, setMenuVisible] = useState(false)
 
   const NavButton = () => {
     return (
@@ -33,10 +33,10 @@ export const Header = () => {
         className={`lg:hidden ml-auto mr-6 text-2xl ${isMenuVisible && 'text-white text-3xl'}`}
         onClick={() => setMenuVisible(!isMenuVisible)}
       >
-        {isMenuVisible ? <FaLongArrowAltLeft /> : <FaStream />}
+        {isMenuVisible ? <FaLongArrowAltLeft /> : <FaBars />}
       </button>
-    );
-  };
+    )
+  }
 
   return (
     <div className="lg:flex lg:justify-center">
@@ -73,5 +73,5 @@ export const Header = () => {
         </div>
       </header>
     </div>
-  );
-};
+  )
+}
