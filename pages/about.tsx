@@ -1,4 +1,4 @@
-import { FaDollarSign } from 'react-icons/fa'
+import { FaCheckCircle, FaDollarSign, FaHandsHelping } from 'react-icons/fa'
 import { FAQ } from '../components/FAQ'
 import { H2, H3 } from '../components/Headings'
 import { Hero } from '../components/Hero'
@@ -11,7 +11,7 @@ import { FAQs } from '../data/faqs'
 export default function About() {
   return (
     <>
-      <Hero title="About Us" media="/placeholder-image-5.jpg" condensed />
+      <Hero title="About Us" media="/image-placeholder-4.avif" condensed />
       <Section type="tertiary">
         <H3>
           <span className="text-primary-600">Who are we?</span>
@@ -30,12 +30,12 @@ export default function About() {
           <IconCard
             title="Service Number Two"
             description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-            icon={<FaDollarSign />}
+            icon={<FaHandsHelping />}
           />
           <IconCard
             title="Service Number Three"
             description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-            icon={<FaDollarSign />}
+            icon={<FaCheckCircle />}
           />
         </div>
       </Section>
