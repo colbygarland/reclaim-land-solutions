@@ -61,6 +61,7 @@ export default function Home() {
           imageSrc="/placeholder-image-3.png"
           imageAlt="Mulcher"
           imageAlignment="right"
+          button={<Button href="/services">View our Mulchers</Button>}
         />
       </Section>
       <Section padding="bottom">
