@@ -14,7 +14,9 @@ export const FAQ = ({ question, answer }: { question: string; answer: string }) 
 
       {expanded && (
         <div className="text-gray-500 mt-3">
-          <P>{answer}</P>
+          <P>
+            <span dangerouslySetInnerHTML={{ __html: answer }} />
+          </P>
         </div>
       )}
     </div>
