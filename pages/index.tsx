@@ -58,8 +58,7 @@ export default function Home() {
           description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
           "
-          imageSrc="/placeholder-image-3.png"
-          imageAlt="Mulcher"
+          videoSrc="https://www.youtube.com/embed/qmPkNU7prl8"
           imageAlignment="right"
           button={<Button href="/services">View our Mulchers</Button>}
         />

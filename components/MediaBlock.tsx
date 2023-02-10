@@ -13,19 +13,32 @@ export const MediaBlock = ({
   imageSrc,
   imageAlt,
   imageAlignment = 'left',
+  videoSrc,
 }: {
   title: string
   subtitle?: string
   description: string
   button?: React.ReactNode
-  imageSrc: string
-  imageAlt: string
+  imageSrc?: string
+  imageAlt?: string
   imageAlignment?: ImageAlignment
+  videoSrc?: string
 }) => {
   return (
     <div className="lg:grid lg:grid-cols-2 lg:gap-16 lg:items-center">
       <div className={`mb-4 ${imageAlignment === 'left' ? 'lg:order-1' : 'lg:order-2'}`}>
-        <Image alt={imageAlt} src={imageSrc} width={600} height={450} />
+        {imageSrc && imageAlt && <Image alt={imageAlt} src={imageSrc} width={600} height={450} />}
+        {videoSrc && (
+          <iframe
+            width="560"
+            height="315"
+            src={videoSrc}
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowFullScreen
+          ></iframe>
+        )}
       </div>
       <div className={`${imageAlignment === 'left' ? 'lg:order-2' : 'lg:order-'}`}>
         {subtitle && (
