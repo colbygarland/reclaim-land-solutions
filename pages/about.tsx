@@ -41,10 +41,9 @@ export default function About() {
       </Section>
       <Section padding="bottom">
         <MediaBlock
-          title="Our Story"
+          title="Mulcher Sales"
           description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-          imageSrc="/placeholder-image-2.jpeg"
-          imageAlt="Reclaim Land Solutions"
+          videoSrc="https://www.youtube.com/embed/As3I3FypY9M"
         />
       </Section>
       <Section type="tertiary">
