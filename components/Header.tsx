@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import { useRouter } from 'next/router'
 import { useState } from 'react'
 import { FaBars, FaLongArrowAltLeft } from 'react-icons/fa'
 import { CONTAINER_HORIZONTAL_PADDING } from '../theme/spacing'
@@ -12,10 +13,13 @@ const Logo = () => {
 }
 
 const MenuItem = ({ href, children, onClick }: { href: string; children: string; onClick: () => void }) => {
+  const router = useRouter()
+  // if active menu item, we want a nice branded color
+  const textColor = router.asPath === href ? 'text-gray-400 lg:text-primary-500' : 'text-white lg:text-black'
   return (
     <li className="p-10 lg:p-0 lg:px-6">
       <Link
-        className="transition duration-100 block text-white lg:text-black hover:text-gray-400 font-bold text-5xl lg:text-lg"
+        className={`transition duration-100 block ${textColor} hover:text-gray-400 font-bold text-5xl lg:text-lg`}
         href={href}
         onClick={onClick}
       >
