@@ -30,7 +30,7 @@ export const MediaBlock = ({
         {imageSrc && imageAlt && <Image alt={imageAlt} src={imageSrc} width={600} height={450} />}
         {videoSrc && (
           <iframe
-            width="560"
+            className="w-full"
             height="315"
             src={videoSrc}
             title="YouTube video player"

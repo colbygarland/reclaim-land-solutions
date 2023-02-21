@@ -11,12 +11,13 @@ const Logo = () => {
   )
 }
 
-const MenuItem = ({ href, children }: { href: string; children: string }) => {
+const MenuItem = ({ href, children, onClick }: { href: string; children: string; onClick: () => void }) => {
   return (
     <li className="p-10 lg:p-0 lg:px-6">
       <Link
         className="transition duration-100 block text-white lg:text-black hover:text-gray-400 font-bold text-5xl lg:text-lg"
         href={href}
+        onClick={onClick}
       >
         {children}
       </Link>
@@ -36,6 +37,10 @@ export const Header = () => {
         {isMenuVisible ? <FaLongArrowAltLeft /> : <FaBars />}
       </button>
     )
+  }
+
+  const closeMenu = () => {
+    setMenuVisible(false)
   }
 
   return (
@@ -64,10 +69,18 @@ export const Header = () => {
               </div>
             )}
             <ul className="relative z-[60] mt-10 lg:flex lg:ml-auto lg:mt-0">
-              <MenuItem href="/">Home</MenuItem>
-              <MenuItem href="/about">About</MenuItem>
-              <MenuItem href="/services">Services</MenuItem>
-              <MenuItem href="/contact">Contact</MenuItem>
+              <MenuItem onClick={closeMenu} href="/">
+                Home
+              </MenuItem>
+              <MenuItem onClick={closeMenu} href="/about">
+                About
+              </MenuItem>
+              <MenuItem onClick={closeMenu} href="/services">
+                Services
+              </MenuItem>
+              <MenuItem onClick={closeMenu} href="/contact">
+                Contact
+              </MenuItem>
             </ul>
           </nav>
         </div>
