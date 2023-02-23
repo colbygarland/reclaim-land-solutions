@@ -32,19 +32,22 @@ export default function Contact() {
     <>
       <Hero title="Contact Us" media="/placeholder-image-2.jpeg" condensed />
       <Section type="tertiary">
-        <div className="lg:grid lg:grid-cols-2">
+        <div className="lg:grid lg:grid-cols-2 lg:gap-4">
           <div className="">
             <H3>
-              <span className="text-primary-600">Lorem Ipsum</span>
+              <span className="text-primary-600">Get in Touch</span>
             </H3>
-            <H2>Lorem Ipsem</H2>
+            <H2>Reclaim Land Solutions</H2>
             <P>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-              dolore magna aliqua.
+              We would love to hear from you! Please book a demo using the from, or feel free to email us at{' '}
+              <a className="font-bold" href="mailto:info@reclaimlandsolutions.com">
+                info@reclaimlandsolutions.com
+              </a>
             </P>
             <P>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-              dolore magna aliqua.
+              With years of experience in forestry, construction and agriculture, we understand the needs of these
+              industries and are ready to determine the best solution for your situation. We are problem solvers who
+              pursue innovative solutions to meet your specific needs.
             </P>
           </div>
           <div className="">
