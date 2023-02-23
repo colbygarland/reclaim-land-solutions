@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { FaMinus, FaPlus } from 'react-icons/fa'
-import { P } from './P'
+import { P } from './Elements'
 
 export const FAQ = ({ question, answer }: { question: string; answer: string }) => {
   const [expanded, setExpanded] = useState(false)

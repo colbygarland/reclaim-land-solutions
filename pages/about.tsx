@@ -1,10 +1,9 @@
-import { FaCheckCircle, FaDollarSign, FaHandsHelping } from 'react-icons/fa'
 import { FAQ } from '../components/FAQ'
 import { H2, H3 } from '../components/Headings'
 import { Hero } from '../components/Hero'
-import { IconCard } from '../components/IconCard'
 import { MediaBlock } from '../components/MediaBlock'
-import { P } from '../components/P'
+import { P } from '../components/Elements'
+import { Popout } from '../components/Popout'
 import { Section } from '../components/Section'
 import { FAQs } from '../data/faqs'
 
@@ -12,37 +11,35 @@ export default function About() {
   return (
     <>
       <Hero title="About Us" media="/image-placeholder-4.avif" condensed />
-      <Section type="tertiary">
+      <Section>
         <H3>
           <span className="text-primary-600">Who are we?</span>
         </H3>
         <H2>Reclaim Land Solutions</H2>
         <P>We take unstable, or underutilized land, and help create solutions to increase productivity.</P>
+        <P>
+          Decades of research and innovation that has been tested in some real harsh environments. There is a need for
+          mulchers that use less power, while performing the same work and require less maintenance.
+        </P>
+        <P>
+          With the ever increasing cost of agricultural land, farmers want to utilize every acre available. Whether it
+          is trees, brush, or low laying wet areas, Reclaim Land Solutions wants to provide farmers with the ability to
+          reclaim and work the land they already own.
+        </P>
       </Section>
-      <Section>
-        <H2>Our Services</H2>
-        <div className="md:grid md:grid-cols-3 md:gap-8">
-          <IconCard
-            title="Service Number One"
-            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-            icon={<FaDollarSign />}
-          />
-          <IconCard
-            title="Service Number Two"
-            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-            icon={<FaHandsHelping />}
-          />
-          <IconCard
-            title="Service Number Three"
-            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-            icon={<FaCheckCircle />}
-          />
-        </div>
+      <Section padding="bottom">
+        <Popout
+          title="Why us?"
+          description="With years of experience in forestry, construction and agriculture, we understand the needs of these industries and are ready to determine the best solution for your situation. We are problem solvers who pursue innovative solutions to meet your specific needs."
+          imageSrc="/placeholder-image-2.jpeg"
+          imageAlt="Mulcher"
+        />
       </Section>
       <Section padding="bottom">
         <MediaBlock
           title="Mulcher Sales"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          description="Decades of research and innovation that has been tested in some real harsh environments. There is a need for
+          mulchers that use less power, while performing the same work and require less maintenance."
           videoSrc="https://www.youtube.com/embed/As3I3FypY9M"
         />
       </Section>

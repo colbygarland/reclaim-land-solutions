@@ -1,7 +1,7 @@
 import { CONTAINER_HORIZONTAL_PADDING } from '../theme/spacing'
 import { Button } from './Button'
 import { H1 } from './Headings'
-import { P } from './P'
+import { P } from './Elements'
 
 const Media = ({ src, alt, isVideo }: { src: string; alt?: string; isVideo?: boolean }) => {
   if (isVideo) {

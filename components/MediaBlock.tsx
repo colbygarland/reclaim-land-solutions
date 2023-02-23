@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 import { H2, H3 } from './Headings'
-import { P } from './P'
+import { P } from './Elements'
 
 type ImageAlignment = 'left' | 'right'
 

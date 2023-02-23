@@ -18,6 +18,7 @@ export const Button = ({
   children: React.ReactNode
   type?: ButtonType
   href: string
+  target?: string
 }) => {
   return (
     <Link {...props} href={href} className={`${defaultButtonStyles} ${buttonType[type]}`}>

@@ -2,7 +2,7 @@ import { HTMLInputTypeAttribute } from 'react'
 import { buttonType, defaultButtonStyles } from '../components/Button'
 import { H2, H3 } from '../components/Headings'
 import { Hero } from '../components/Hero'
-import { P } from '../components/P'
+import { P } from '../components/Elements'
 import { Section } from '../components/Section'
 
 const InputGroup = ({

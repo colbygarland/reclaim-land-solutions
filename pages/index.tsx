@@ -3,7 +3,7 @@ import { FAQ } from '../components/FAQ'
 import { H2, H3 } from '../components/Headings'
 import { Hero } from '../components/Hero'
 import { MediaBlock } from '../components/MediaBlock'
-import { P } from '../components/P'
+import { P } from '../components/Elements'
 import { Popout } from '../components/Popout'
 import { Section } from '../components/Section'
 import { FAQs } from '../data/faqs'
@@ -45,25 +45,22 @@ export default function Home() {
       <Section padding="bottom">
         <Popout
           title="Why us?"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-          magna aliqua."
+          description="With years of experience in forestry, construction and agriculture, we understand the needs of these industries and are ready to determine the best solution for your situation. We are problem solvers who pursue innovative solutions to meet your specific needs."
           imageSrc="/placeholder-image-2.jpeg"
           imageAlt="Mulcher"
         />
       </Section>
       <Section padding="bottom">
         <MediaBlock
-          title="Lorem Ipsum"
-          subtitle="Consectetur adipiscing"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          "
+          title="SEPPI M MiniForst"
+          subtitle="Mulch Anything, Anywhere"
+          description="The SEPPI forestry mulcher for skid steer loaders takes the best qualities from the MiniForst and Midiforst skid steer mulchers and sets a new standard."
           videoSrc="https://www.youtube.com/embed/qmPkNU7prl8"
           imageAlignment="right"
           button={<Button href="/services">View our Mulchers</Button>}
         />
       </Section>
-      <Section padding="bottom">
+      <Section type="tertiary">
         <H3>
           <span className="text-primary-600">What kind of Mulchers?</span>
         </H3>
@@ -77,9 +74,8 @@ export default function Home() {
       </Section>
       <Section backgroundImage="/placeholder-image-5.jpg">
         <Popout
-          title="Why us?"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-          magna aliqua."
+          title="Book a Demo"
+          description="Reclaim Land Solutions wants to provide farmers the ability to reclaim their land. Whether it is trees, brush, or low laying we areas, RLS will allow you to work the land you already own."
           imageSrc="/image-placeholder-4.avif"
           imageAlt="Mulcher"
           imageAlignment="right"
