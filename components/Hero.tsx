@@ -6,7 +6,7 @@ import { P } from './Elements'
 const Media = ({ src, alt, isVideo }: { src: string; alt?: string; isVideo?: boolean }) => {
   if (isVideo) {
     return (
-      <video autoPlay muted loop className="absolute z-10 top-0 left-0 h-full w-full object-cover">
+      <video autoPlay muted loop className="absolute z-10 top-0 left-0 h-full w-full object-cover" preload="metadata">
         <source src={src} />
       </video>
     )
