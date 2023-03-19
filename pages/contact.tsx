@@ -4,6 +4,7 @@ import { H2, H3 } from '../components/Headings'
 import { Hero } from '../components/Hero'
 import { P } from '../components/Elements'
 import { Section } from '../components/Section'
+import { EMAIL_ADDRESS } from '../constants'
 
 const InputGroup = ({
   label,
@@ -40,8 +41,8 @@ export default function Contact() {
             <H2>Reclaim Land Solutions</H2>
             <P>
               We would love to hear from you! Please book a demo using the from, or feel free to email us at{' '}
-              <a className="font-bold" href="mailto:info@reclaimlandsolutions.com">
-                info@reclaimlandsolutions.com
+              <a className="font-bold" href={`mailto:${EMAIL_ADDRESS}`}>
+                {EMAIL_ADDRESS}
               </a>
             </P>
             <P>

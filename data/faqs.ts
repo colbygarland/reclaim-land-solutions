@@ -1,4 +1,4 @@
-import { EMAIL_ADDRESS } from '../constants'
+import { EMAIL_ADDRESS_LINK } from '../constants'
 
 type Faq = {
   question: string
@@ -14,7 +14,7 @@ export const FAQs: Faq[] = [
       <br /><br />
       Due to Seppi’s helical hammer pattern and lighter drum, less power is needed for mulching while allowing for quicker startup and return to speed while under load.
       <br /><br />
-      Email ${EMAIL_ADDRESS} for more information regarding what mulcher will work with your equipment.`,
+      Email ${EMAIL_ADDRESS_LINK} for more information regarding what mulcher will work with your equipment.`,
   },
   {
     question: 'What size vegetation can I mulch?',
@@ -26,7 +26,7 @@ export const FAQs: Faq[] = [
       <br /><br />
       Seppi also manufactures a line of multipurpose mulchers which can be used for both stone crushing and forestry mulching. There is a smaller model for skid steers which crushes rocks (6”) mulches wood (8”) and tills soil (4” deep). Larger models are capable of crushing stones and mulching wood up to 20” and tilling soil as deep as 14”.
       <br /><br />
-      Email ${EMAIL_ADDRESS} for more information regarding what mulcher will work with your equipment.`,
+      Email ${EMAIL_ADDRESS_LINK} for more information regarding what mulcher will work with your equipment.`,
   },
   {
     question: 'How much can I mulch in a day?',
@@ -34,7 +34,7 @@ export const FAQs: Faq[] = [
       <br /><br />
       An 8 ft mulcher averaging 2km/hr would be mulch 8-12 acres a day.
       <br /><br />
-      To find out what mulcher you need to suit your needs, email ${EMAIL_ADDRESS}`,
+      To find out what mulcher you need to suit your needs, email ${EMAIL_ADDRESS_LINK}`,
   },
   {
     question: 'How long do the teeth last?',
@@ -44,7 +44,7 @@ export const FAQs: Faq[] = [
       <br /><br />
       With patented V.Lock technology, the hammers remain securely fastened to the drum and can be easily replaced if needed.
       <br /><br />
-      For more information on Seppi mulchers and their maintenance email ${EMAIL_ADDRESS}`,
+      For more information on Seppi mulchers and their maintenance email ${EMAIL_ADDRESS_LINK}`,
   },
   {
     question: 'Can I break ground in winter time?',
@@ -52,7 +52,7 @@ export const FAQs: Faq[] = [
     <br /><br />
     Another benefit is mixing frost and snow into the ground creating embedded moisture in the ground for future seeding. 
     <br /><br />
-    Email ${EMAIL_ADDRESS} to talk about a specific mulcher, and if it will meet your needs.`,
+    Email ${EMAIL_ADDRESS_LINK} to talk about a specific mulcher, and if it will meet your needs.`,
   },
   {
     question: 'Maintenance and Parts',
@@ -60,6 +60,6 @@ export const FAQs: Faq[] = [
     <br /><br />
     While we stock a large number of parts. RLS is part of Seppi Parts Canada, a network of dealers who stock wear and critical parts. If we don’t have your part, we can find someone who does and minimize your downtime.
     <br /><br />
-    For all your parts requirement, email ${EMAIL_ADDRESS}`,
+    For all your parts requirement, email ${EMAIL_ADDRESS_LINK}`,
   },
 ]

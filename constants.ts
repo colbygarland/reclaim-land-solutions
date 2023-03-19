@@ -1,2 +1,3 @@
-export const EMAIL_ADDRESS =
-  '<a href="mailto:info@reclaimlandsolutions.ca" class="font-bold text-black">info@reclaimlandsolutions.ca</a>'
+export const EMAIL_ADDRESS = 'sales@rlsltd.ca'
+
+export const EMAIL_ADDRESS_LINK = `<a href="mailto:${EMAIL_ADDRESS}" class="font-bold text-black">${EMAIL_ADDRESS}</a>`
