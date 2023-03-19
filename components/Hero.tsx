@@ -3,10 +3,17 @@ import { Button } from './Button'
 import { H1 } from './Headings'
 import { P } from './Elements'
 
-const Media = ({ src, alt, isVideo }: { src: string; alt?: string; isVideo?: boolean }) => {
+const Media = ({ src, alt, isVideo, poster }: { src: string; alt?: string; isVideo?: boolean; poster?: string }) => {
   if (isVideo) {
     return (
-      <video autoPlay muted loop className="absolute z-10 top-0 left-0 h-full w-full object-cover" preload="metadata">
+      <video
+        poster={poster}
+        autoPlay
+        muted
+        loop
+        className="absolute z-10 top-0 left-0 h-full w-full object-cover"
+        preload="metadata"
+      >
         <source src={src} />
       </video>
     )
@@ -25,6 +32,7 @@ export const Hero = ({
   isVideo,
   media,
   mediaAlt,
+  poster,
   buttonLink,
   buttonText,
   condensed = false,
@@ -34,6 +42,7 @@ export const Hero = ({
   isVideo?: boolean
   media?: string
   mediaAlt?: string
+  poster?: string
   buttonLink?: string
   buttonText?: string
   condensed?: boolean
@@ -52,7 +61,7 @@ export const Hero = ({
           )}
         </div>
       </div>
-      {media && <Media src={media} alt={mediaAlt} isVideo={isVideo} />}
+      {media && <Media src={media} alt={mediaAlt} isVideo={isVideo} poster={poster} />}
     </div>
   )
 }

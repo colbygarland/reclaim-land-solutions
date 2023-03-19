@@ -15,6 +15,7 @@ export default function Home() {
         title="Reclaim Land Solutions LTD"
         description="We take unstable, or underutilized land, and help create solutions to increase productivity."
         media="/seppi-video.mp4#t=0.1"
+        poster="/video-poster.jpeg"
         isVideo
         buttonLink="/services"
         buttonText="Our Services"
