@@ -5,6 +5,7 @@ import { Hero } from '../components/Hero'
 import { P } from '../components/Elements'
 import { Section } from '../components/Section'
 import { EMAIL_ADDRESS } from '../constants'
+import { useRouter } from 'next/router'
 
 const InputGroup = ({
   label,
@@ -29,6 +30,7 @@ const InputGroup = ({
 }
 
 export default function Contact() {
+  const router = useRouter()
   return (
     <>
       <Hero title="Contact Us" media="/placeholder-image-2.jpeg" condensed />
@@ -51,9 +53,18 @@ export default function Contact() {
               pursue innovative solutions to meet your specific needs.
             </P>
           </div>
-          <div className="">
-            {/* @ts-ignore */}
-            <form name="contact" netlify>
+          <div>
+            {router.query.success && (
+              <div className="bg-primary-500 p-6 text-white mb-10 rounded">
+                <p>
+                  <strong>Success!</strong>
+                </p>
+                <br />
+                <p>We have received your message. We will get back to you as soon as possible.</p>
+              </div>
+            )}
+            <form name="contact" method="POST" data-netlify="true" action="/contact?success=1">
+              <input type="hidden" name="form-name" value="contact" />
               <InputGroup name="name" label="Name" required />
               <InputGroup name="email" label="Email Address" required />
               <InputGroup name="phone" label="Phone Number" type="tel" required />
