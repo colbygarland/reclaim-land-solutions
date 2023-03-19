@@ -14,7 +14,7 @@ export default function Home() {
       <Hero
         title="Reclaim Land Solutions LTD"
         description="We take unstable, or underutilized land, and help create solutions to increase productivity."
-        media="/seppi-video.mp4"
+        media="/seppi-video.mp4#t=0.1"
         isVideo
         buttonLink="/services"
         buttonText="Our Services"
