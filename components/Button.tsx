@@ -12,16 +12,26 @@ export const buttonType = {
 export const Button = ({
   children,
   href,
+  onClick,
   type = 'primary',
   ...props
 }: {
   children: React.ReactNode
   type?: ButtonType
-  href: string
+  href?: string
   target?: string
+  onClick?: any
 }) => {
+  if (onClick) {
+    return (
+      <button {...props} onClick={onClick} className={`${defaultButtonStyles} ${buttonType[type]}`}>
+        {children}
+      </button>
+    )
+  }
+
   return (
-    <Link {...props} href={href} className={`${defaultButtonStyles} ${buttonType[type]}`}>
+    <Link {...props} href={href!} className={`${defaultButtonStyles} ${buttonType[type]}`}>
       {children}
     </Link>
   )

@@ -7,8 +7,21 @@ import { P } from '../components/Elements'
 import { Popout } from '../components/Popout'
 import { Section } from '../components/Section'
 import { FAQs } from '../data/faqs'
+import { useDisclosure } from '@chakra-ui/react'
+import { useEffect } from 'react'
+import { DemoDaysModal } from '../components/DemoDaysModal'
 
 export default function Home() {
+  const { isOpen, onOpen, onClose } = useDisclosure()
+
+  useEffect(() => {
+    const seenDemoDays = sessionStorage.getItem('seenDemoDays')
+    if (!seenDemoDays) {
+      onOpen()
+      sessionStorage.setItem('seenDemoDays', 'true')
+    }
+  }, [])
+
   return (
     <>
       <Hero
@@ -20,6 +33,20 @@ export default function Home() {
         buttonLink="/services"
         buttonText="Our Services"
       />
+      <Section type="tertiary">
+        <MediaBlock
+          title="April 25-27 2023"
+          subtitle="Jump in the seat and try it yourself!"
+          description="Tractor, excavator and skid steer mulchers in action! From Tuesday April 25 - Thursday April 27, 2023 between 10:00 AM - 2:00 PM MDT in Grande Prairie, AB. Demo larger mulchers capable of crushing 12 inch stones! Don't believe us? Bring your own rocks and try it out yourself. RSVP to receive demo information, location and directions of demo, and to book your spot to try the machine of interest to you and your organization. Click the button below, or contact Dan at 780-518-9914, or dan@rlsltd.ca."
+          imageSrc="/demo-days.jpg"
+          imageAlt="Seppi M Mulcher Demo days, April 25-27 in Grande Prairie, AB"
+          button={
+            <Button target="_blank" href="https://www.eventbrite.ca/e/-seppi-m-demo-days--tickets-599448445437">
+              Register now!
+            </Button>
+          }
+        />
+      </Section>
       <Section>
         <H3>
           <span className="text-primary-600">Who are we?</span>
@@ -31,7 +58,7 @@ export default function Home() {
         </P>
         <Button href="/about">Read More</Button>
       </Section>
-      <Section padding="bottom">
+      <Section type="tertiary">
         <MediaBlock
           title="What do we do?"
           subtitle="Reclaim Your Land"
@@ -41,6 +68,7 @@ export default function Home() {
           imageSrc="/placeholder-image.jpeg"
           imageAlt="Mulcher"
           button={<Button href="/contact">Book a Demo</Button>}
+          imageAlignment="right"
         />
       </Section>
       <Section padding="bottom">
@@ -83,6 +111,7 @@ export default function Home() {
           color="white"
         />
       </Section>
+      <DemoDaysModal isOpen={isOpen} onClose={onClose} />
     </>
   )
 }
