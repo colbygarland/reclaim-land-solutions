@@ -1,4 +1,5 @@
 import { Html, Head, Main, NextScript } from 'next/document'
+import Script from 'next/script'
 
 export default function Document() {
   return (
@@ -10,10 +11,10 @@ export default function Document() {
           href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;700&display=swap"
           rel="stylesheet"
         />
-        {/* @ts-ignore */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-7E8B8XXYBR"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){window.dataLayer.push(arguments)} gtag('js', new Date()); gtag('config', 'G-7E8B8XXYBR'); </script>
       </Head>
       <body>
+        {/* @ts-ignore */}
+        <Script strategy='afterInteractive' src="https://www.googletagmanager.com/gtag/js?id=G-7E8B8XXYBR"></Script> <Script strategy='afterInteractive'>{`window.dataLayer = window.dataLayer || []; function gtag(){window.dataLayer.push(arguments)} gtag('js', new Date()); gtag('config', 'G-7E8B8XXYBR');`}</Script>
         <Main />
         <NextScript />
       </body>
