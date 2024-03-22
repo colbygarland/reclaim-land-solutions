@@ -3,6 +3,8 @@ import { useRouter } from 'next/router'
 import { useState } from 'react'
 import { FaBars, FaLongArrowAltLeft } from 'react-icons/fa'
 import { CONTAINER_HORIZONTAL_PADDING } from '../theme/spacing'
+import { PhoneIcon } from '@chakra-ui/icons'
+import { PHONE_NUMBER } from '../constants'
 
 const Logo = () => {
   return (
@@ -12,7 +14,7 @@ const Logo = () => {
   )
 }
 
-const MenuItem = ({ href, children, onClick }: { href: string; children: string; onClick: () => void }) => {
+const MenuItem = ({ href, children, onClick }: { href: string; children: React.ReactNode; onClick: () => void }) => {
   const router = useRouter()
   // if active menu item, we want a nice branded color
   const textColor = router.asPath === href ? 'text-gray-400 lg:text-primary-500' : 'text-white lg:text-black'
@@ -84,6 +86,9 @@ export const Header = () => {
               </MenuItem>
               <MenuItem onClick={closeMenu} href="/contact">
                 Contact
+              </MenuItem>
+              <MenuItem onClick={closeMenu} href={`tel:${PHONE_NUMBER}`}>
+                <PhoneIcon />
               </MenuItem>
             </ul>
           </nav>
