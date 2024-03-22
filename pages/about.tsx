@@ -43,6 +43,17 @@ export default function About() {
           videoSrc="https://www.youtube.com/embed/As3I3FypY9M"
         />
       </Section>
+      <Section backgroundImage="/placeholder-image-5.jpg">
+        <Popout
+          title="Nolan Dyck"
+          description="Thank you to Reclaim Land Solutions for the demo tonight with your new Seppi M. USA mulcher, and the launching of your Seppi dealership here in Grande Prairie. It is great to see the continued growth of our forestry and Ag. develop here in the North!"
+          imageSrc="/image-placeholder-4.avif"
+          imageAlt="Mulcher"
+          imageAlignment="right"
+          color="white"
+          isTestimonial
+        />
+      </Section>
       <Section type="tertiary">
         <div id="faqs">
           <H2>Frequently Asked Questions</H2>

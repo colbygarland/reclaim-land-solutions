@@ -11,6 +11,7 @@ export const Popout = ({
   imageAlt,
   imageAlignment = 'left',
   color = 'primary',
+  isTestimonial,
 }: {
   title: string
   description: string
@@ -18,6 +19,7 @@ export const Popout = ({
   imageAlt: string
   imageAlignment?: ImageAlignment
   color?: Color
+  isTestimonial?: boolean
 }) => {
   return (
     <div className={`${color === 'primary' ? 'bg-primary-600' : 'bg-white'} shadow-lg`}>
@@ -32,7 +34,11 @@ export const Popout = ({
           <H3>
             <span className={`${color === 'primary' ? 'text-white' : 'text-primary-600'}`}>{title}</span>
           </H3>
-          <H2>{description}</H2>
+          <H2>
+            {isTestimonial && <span className="text-primary-600">“</span>}
+            {description}
+            {isTestimonial && <span className="text-primary-600">”</span>}
+          </H2>
         </div>
       </div>
     </div>
