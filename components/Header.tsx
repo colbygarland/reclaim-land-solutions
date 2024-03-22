@@ -78,11 +78,11 @@ export const Header = () => {
               <MenuItem onClick={closeMenu} href="/">
                 Home
               </MenuItem>
-              <MenuItem onClick={closeMenu} href="/about">
-                About
-              </MenuItem>
               <MenuItem onClick={closeMenu} href="/services">
                 Services
+              </MenuItem>
+              <MenuItem onClick={closeMenu} href="/about">
+                About
               </MenuItem>
               <MenuItem onClick={closeMenu} href="/contact">
                 Contact
