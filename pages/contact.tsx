@@ -32,6 +32,12 @@ const InputGroup = ({
 
 export default function Contact() {
   const router = useRouter()
+
+  // Redirect to a hidden thank you page for tracking conversions
+  if (router.query.success) {
+    router.replace('/thank-you')
+  }
+
   return (
     <>
       <Hero title="Contact Us" media="/placeholder-image-2.jpeg" condensed />
@@ -75,15 +81,6 @@ export default function Contact() {
             </ul>
           </div>
           <div>
-            {router.query.success && (
-              <div className="bg-primary-500 p-6 text-white mb-10 rounded">
-                <p>
-                  <strong>Success!</strong>
-                </p>
-                <br />
-                <p>We have received your message. We will get back to you as soon as possible.</p>
-              </div>
-            )}
             <form name="contact" method="POST" data-netlify="true" action="/contact?success=1">
               <input type="hidden" name="form-name" value="contact" />
               <InputGroup name="name" label="Name" required />
