@@ -251,14 +251,14 @@
 
 "@chakra-ui/icon@3.2.0":
   version "3.2.0"
-  resolved "https://artifactory.hootops.com:443/artifactory/api/npm/hootsuite-npm/@chakra-ui/icon/-/icon-3.2.0.tgz#92b9454aa0d561b4994bcd6a1b3bb1fdd5c67bef"
+  resolved "https://registry.yarnpkg.com/@chakra-ui/icon/-/icon-3.2.0.tgz#92b9454aa0d561b4994bcd6a1b3bb1fdd5c67bef"
   integrity sha512-xxjGLvlX2Ys4H0iHrI16t74rG9EBcpFvJ3Y3B7KMQTrnW34Kf7Da/UC8J67Gtx85mTHW020ml85SVPKORWNNKQ==
   dependencies:
     "@chakra-ui/shared-utils" "2.0.5"
 
 "@chakra-ui/icons@^2.1.1":
   version "2.1.1"
-  resolved "https://artifactory.hootops.com:443/artifactory/api/npm/hootsuite-npm/@chakra-ui/icons/-/icons-2.1.1.tgz#58ff0f9e703f2f4f89debd600ce4e438f43f9c9a"
+  resolved "https://registry.yarnpkg.com/@chakra-ui/icons/-/icons-2.1.1.tgz#58ff0f9e703f2f4f89debd600ce4e438f43f9c9a"
   integrity sha512-3p30hdo4LlRZTT5CwoAJq3G9fHI0wDc0pBaMHj4SUn0yomO+RcDRlzhdXqdr5cVnzax44sqXJVnf3oQG0eI+4g==
   dependencies:
     "@chakra-ui/icon" "3.2.0"
@@ -2447,7 +2447,7 @@ natural-compare@^1.4.0:
 
 next-recaptcha-v3@^1.3.0:
   version "1.3.0"
-  resolved "https://artifactory.hootops.com:443/artifactory/api/npm/hootsuite-npm/next-recaptcha-v3/-/next-recaptcha-v3-1.3.0.tgz#135625c8cfbf2d9dfebd1adf7294326d4672d834"
+  resolved "https://registry.yarnpkg.com/next-recaptcha-v3/-/next-recaptcha-v3-1.3.0.tgz#135625c8cfbf2d9dfebd1adf7294326d4672d834"
   integrity sha512-Lt2uX44EzsHi8FTajgfRc5eLRPPvovETjG/YauaV1/pUsnJgXdMsgS9mJrxv25YJfwQ09lO3bzJ2pveRVt5DVw==
 
 next@^13.1.6:
