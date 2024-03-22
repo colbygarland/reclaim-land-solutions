@@ -4,8 +4,9 @@ import { H2, H3 } from '../components/Headings'
 import { Hero } from '../components/Hero'
 import { P } from '../components/Elements'
 import { Section } from '../components/Section'
-import { EMAIL_ADDRESS } from '../constants'
+import { ADDRESS, EMAIL_ADDRESS, GOOGLE_MAPS_LINK, PHONE_NUMBER } from '../constants'
 import { useRouter } from 'next/router'
+import { EmailIcon, ExternalLinkIcon, PhoneIcon } from '@chakra-ui/icons'
 
 const InputGroup = ({
   label,
@@ -52,6 +53,26 @@ export default function Contact() {
               industries and are ready to determine the best solution for your situation. We are problem solvers who
               pursue innovative solutions to meet your specific needs.
             </P>
+            <ul>
+              <li className="mb-2 text-lg">
+                <PhoneIcon />{' '}
+                <a className="font-bold transition hover:text-primary-500" href={`tel:${PHONE_NUMBER}`}>
+                  {PHONE_NUMBER}
+                </a>
+              </li>
+              <li className="mb-2 text-lg">
+                <EmailIcon />{' '}
+                <a className="font-bold transition hover:text-primary-500" href={`mailto:${EMAIL_ADDRESS}`}>
+                  {EMAIL_ADDRESS}
+                </a>
+              </li>
+              <li className="mb-2 text-lg">
+                <ExternalLinkIcon />{' '}
+                <a className="font-bold transition hover:text-primary-500" href={`${GOOGLE_MAPS_LINK}`}>
+                  {ADDRESS}
+                </a>
+              </li>
+            </ul>
           </div>
           <div>
             {router.query.success && (
