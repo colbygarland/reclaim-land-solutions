@@ -7,7 +7,7 @@ import { Section } from '../components/Section'
 export default function Services() {
   return (
     <>
-      <Hero title="Our Services" media="/image-placeholder-4.avif" condensed />
+      <Hero title="Mulchers" media="/image-placeholder-4.avif" condensed />
       <Section type="tertiary">
         <H3>
           <span className="text-primary-600">Seppi Mulchers</span>
@@ -23,7 +23,6 @@ export default function Services() {
           brush technology. They are committed to using high quality materials to produce reliable equipment which will
           provide unrivaled service even in harsh environments.
         </P>
-        <Button href="#mulchers">View our Mulchers</Button>
       </Section>
       <div id="mulchers">
         <Section>
