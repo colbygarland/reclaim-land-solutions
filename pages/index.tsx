@@ -47,7 +47,7 @@ export default function Home() {
           description="With the ever increasing cost of agricultural land, farmers want to utilize every acre available. Whether it
           is trees, brush, or low laying wet areas, Reclaim Land Solutions wants to provide farmers with the ability to
           reclaim and work the land they already own."
-          imageSrc="/placeholder-image.jpeg"
+          imageSrc="/MINIFORST-24-2867.jpg"
           imageAlt="Mulcher"
           button={<Button href="/contact">Book a Demo</Button>}
           imageAlignment="right"

@@ -28,65 +28,6 @@ export default function Services() {
         <Section>
           <div className="md:grid grid-cols-2">
             <div>
-              <img src="/flail-mulcher.jpeg" alt="Flail mulcher" />
-            </div>
-            <div>
-              <H2>Flail Mulchers</H2>
-              <P>
-                <strong>Nominal power:</strong> 30 - 250 HP
-                <br />
-                <strong>Working width:</strong> 49 - 315 inches
-                <br />
-                <strong>Vegeation:</strong> up to 4.3 inches
-              </P>
-              <P>
-                These powerful flair mulchers meet the needs of greenspace maintenance and agricultural sectors. Their
-                sturdy design and high performance make them a lifelong investment with long-term cost savings. Most
-                models are available with parallel or linear side shift
-              </P>
-              <Button href="/mulchers/flail">View More</Button>
-            </div>
-          </div>
-        </Section>
-        <Section type="tertiary">
-          <div className="md:grid grid-cols-2">
-            <div>
-              <img src="/forestry-mulcher.jpeg" alt="Forestry mulcher" />
-            </div>
-            <div>
-              <H2>Forestry Mulchers</H2>
-              <P>
-                <strong>Nominal power:</strong> 60 - 500 HP
-                <br />
-                <strong>Working width:</strong> 49 - 118 inches
-                <br />
-                <strong>Wood & stumps:</strong> 24 inches
-              </P>
-              <P>
-                These PTO driven mulches are ideal for forest maintenance. The lightweight drum lowers recovery time
-                allowing more mulching in applications such as:
-              </P>
-              <Ul
-                items={[
-                  'Right of way maintenance',
-                  'Cleaning of forests after timer felling and harvest',
-                  'Maintenance of woodland and forests',
-                  'Building fire breaks',
-                  'Clearing of invasive species',
-                ]}
-              />
-              <Button
-                href="https://www.seppi.com/en-ca/mulcher-mower-shredder-tiller-stump-grinder/pto-forestry-mulchers.html"
-                target="_blank"
-              >
-                View More
-              </Button>
-            </div>
-          </div>
-        </Section>
-        <Section>
-          <div className="md:grid grid-cols-2">
-            <div>
               <img src="/stone-crusher.jpeg" alt="Stone crusher" />
             </div>
             <div>
@@ -161,6 +102,43 @@ export default function Services() {
         <Section>
           <div className="md:grid grid-cols-2">
             <div>
+              <img src="/forestry-mulcher.jpeg" alt="Forestry mulcher" />
+            </div>
+            <div>
+              <H2>Forestry Mulchers</H2>
+              <P>
+                <strong>Nominal power:</strong> 60 - 500 HP
+                <br />
+                <strong>Working width:</strong> 49 - 118 inches
+                <br />
+                <strong>Wood & stumps:</strong> 24 inches
+              </P>
+              <P>
+                These PTO driven mulches are ideal for forest maintenance. The lightweight drum lowers recovery time
+                allowing more mulching in applications such as:
+              </P>
+              <Ul
+                items={[
+                  'Right of way maintenance',
+                  'Cleaning of forests after timer felling and harvest',
+                  'Maintenance of woodland and forests',
+                  'Building fire breaks',
+                  'Clearing of invasive species',
+                ]}
+              />
+              <Button
+                href="https://www.seppi.com/en-ca/mulcher-mower-shredder-tiller-stump-grinder/pto-forestry-mulchers.html"
+                target="_blank"
+              >
+                View More
+              </Button>
+            </div>
+          </div>
+        </Section>
+
+        <Section type="tertiary">
+          <div className="md:grid grid-cols-2">
+            <div>
               <img src="/excavator.jpeg" alt="Excavator Mulchers" />
             </div>
             <div>
@@ -195,7 +173,7 @@ export default function Services() {
             </div>
           </div>
         </Section>
-        <Section type="tertiary">
+        <Section>
           <div className="md:grid grid-cols-2">
             <div>
               <img src="/stump.jpeg" alt="Stump and root grinders" />
@@ -225,6 +203,29 @@ export default function Services() {
               >
                 View More
               </Button>
+            </div>
+          </div>
+        </Section>
+        <Section type="tertiary">
+          <div className="md:grid grid-cols-2">
+            <div>
+              <img src="/flail-mulcher.jpeg" alt="Flail mulcher" />
+            </div>
+            <div>
+              <H2>Flail Mulchers</H2>
+              <P>
+                <strong>Nominal power:</strong> 30 - 250 HP
+                <br />
+                <strong>Working width:</strong> 49 - 315 inches
+                <br />
+                <strong>Vegeation:</strong> up to 4.3 inches
+              </P>
+              <P>
+                These powerful flair mulchers meet the needs of greenspace maintenance and agricultural sectors. Their
+                sturdy design and high performance make them a lifelong investment with long-term cost savings. Most
+                models are available with parallel or linear side shift
+              </P>
+              <Button href="/mulchers/flail">View More</Button>
             </div>
           </div>
         </Section>
