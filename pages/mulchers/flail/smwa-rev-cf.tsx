@@ -32,7 +32,7 @@ export default function Page() {
           <P>Available working widths: 115, 125, 135, 145, 155, 175, 200 cm [45", 49", 53", 57", 61", 69", 79"].</P>
         </>
       }
-      featureTitle={'Under canopy equipment'}
+      featureTitle={'SMWA Rev CF - standard version'}
       features={[
         'Mulches grass and prunings up to 5 cm [2"]',
         'Helical rotor with SMW flails',
