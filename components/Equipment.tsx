@@ -24,7 +24,7 @@ export function Equipment({
   features: string[]
   featureTitle: string
   options: string[]
-  brochure: string
+  brochure?: string
   title: string
   image: string
   content: React.ReactNode
@@ -46,9 +46,11 @@ export function Equipment({
         <div className="flex justify-center lg:gap-4 flex-col lg:flex-row">
           <Button onClick={onOpen}>Buy now</Button>
           <Button href="/contact">Book a demo</Button>
-          <Button href={brochure} target="_blank">
-            Download the Brochure
-          </Button>
+          {brochure && (
+            <Button href={brochure} target="_blank">
+              Download the Brochure
+            </Button>
+          )}
           <Button href={`tel:${PHONE_NUMBER}`}>Call for info</Button>
         </div>
       </Section>
