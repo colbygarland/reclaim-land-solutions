@@ -1,4 +1,3 @@
-import { HTMLInputTypeAttribute } from 'react'
 import { buttonType, defaultButtonStyles } from '../components/Button'
 import { H2, H3 } from '../components/Headings'
 import { Hero } from '../components/Hero'
@@ -7,28 +6,7 @@ import { Section } from '../components/Section'
 import { ADDRESS, EMAIL_ADDRESS, GOOGLE_MAPS_LINK, PHONE_NUMBER } from '../constants'
 import { useRouter } from 'next/router'
 import { EmailIcon, ExternalLinkIcon, PhoneIcon } from '@chakra-ui/icons'
-
-const InputGroup = ({
-  label,
-  name,
-  type = 'text',
-  required = false,
-}: {
-  label: string
-  name: string
-  type?: HTMLInputTypeAttribute
-  required?: boolean
-}) => {
-  return (
-    <div className="mb-6">
-      <label className="block font-bold mb-2">
-        {label}
-        {required && <span className="text-red-600">*</span>}
-      </label>
-      <input type={type} name={name} required={required} className="px-4 py-3 w-full" />
-    </div>
-  )
-}
+import { InputGroup } from '../components/InputGroup'
 
 export default function Contact() {
   const router = useRouter()

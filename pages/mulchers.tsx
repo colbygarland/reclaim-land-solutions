@@ -44,12 +44,7 @@ export default function Services() {
                 sturdy design and high performance make them a lifelong investment with long-term cost savings. Most
                 models are available with parallel or linear side shift
               </P>
-              <Button
-                href="https://www.seppi.com/en-ca/mulcher-mower-shredder-tiller-stump-grinder/flail-mulchers.html"
-                target="_blank"
-              >
-                View More
-              </Button>
+              <Button href="/mulchers/flail">View More</Button>
             </div>
           </div>
         </Section>
