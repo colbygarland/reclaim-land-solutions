@@ -32,6 +32,15 @@ export default function Home() {
         <Button href="/about">Read More</Button>
       </Section>
       <Section type="tertiary">
+        <H2>Social Proof (this heading would be removed)</H2>
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
+          <div className="h-40 w-40 rounded-full bg-gray-200 mx-auto" />
+          <div className="h-40 w-40 rounded-full bg-gray-200 mx-auto" />
+          <div className="h-40 w-40 rounded-full bg-gray-200 mx-auto" />
+          <div className="h-40 w-40 rounded-full bg-gray-200 mx-auto" />
+        </div>
+      </Section>
+      <Section>
         <MediaBlock
           title="What do we do?"
           subtitle="Reclaim Your Land"
@@ -76,12 +85,13 @@ export default function Home() {
       </Section>
       <Section backgroundImage="/placeholder-image-5.jpg">
         <Popout
-          title="Book a Demo"
-          description="Reclaim Land Solutions wants to provide farmers the ability to reclaim their land. Whether it is trees, brush, or low laying we areas, RLS will allow you to work the land you already own."
+          title="Nolan Dyck"
+          description="Thank you to Reclaim Land Solutions for the demo tonight with your new Seppi M. USA mulcher, and the launching of your Seppi dealership here in Grande Prairie. It is great to see the continued growth of our forestry and Ag. develop here in the North!"
           imageSrc="/image-placeholder-4.avif"
           imageAlt="Mulcher"
           imageAlignment="right"
           color="white"
+          isTestimonial
         />
       </Section>
     </>

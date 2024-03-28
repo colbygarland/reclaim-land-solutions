@@ -4,6 +4,7 @@ import 'tailwindcss/tailwind.css'
 import { Footer } from '../components/Footer'
 import { Header } from '../components/Header'
 import { PageHead } from '../components/PageHead'
+import { ReCaptchaProvider } from 'next-recaptcha-v3'
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
@@ -11,7 +12,9 @@ function MyApp({ Component, pageProps }: AppProps) {
       <PageHead />
       <Header />
       <main>
-        <Component {...pageProps} />
+        <ReCaptchaProvider reCaptchaKey="6Lex9KApAAAAAIemmI4wqhmzeO0BOL-fDPjCwKp5">
+          <Component {...pageProps} />
+        </ReCaptchaProvider>
       </main>
       <Footer />
     </ChakraProvider>
