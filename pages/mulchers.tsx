@@ -85,12 +85,7 @@ export default function Services() {
                 make it possible to reach steep and hard to access areas. A great solution to all types of vegetation
                 management.
               </P>
-              <Button
-                href="https://www.seppi.com/en-ca/mulcher-mower-shredder-tiller-stump-grinder/mulchers-for-compact-loaders.htmlhydrau"
-                target="_blank"
-              >
-                View More
-              </Button>
+              <Button href="/mulchers/hydraulic">View More</Button>
             </div>
           </div>
         </Section>
