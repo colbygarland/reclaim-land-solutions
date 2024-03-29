@@ -116,12 +116,7 @@ export default function Services() {
                   'Clearing of invasive species',
                 ]}
               />
-              <Button
-                href="https://www.seppi.com/en-ca/mulcher-mower-shredder-tiller-stump-grinder/pto-forestry-mulchers.html"
-                target="_blank"
-              >
-                View More
-              </Button>
+              <Button href="/mulchers/forestry">View More</Button>
             </div>
           </div>
         </Section>
