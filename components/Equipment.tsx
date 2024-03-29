@@ -23,7 +23,7 @@ export function Equipment({
   equipment?: string[]
   features: string[]
   featureTitle: string
-  options: string[]
+  options?: string[]
   brochure?: string
   title: string
   image: string
@@ -60,16 +60,18 @@ export function Equipment({
             <H3>{featureTitle}</H3>
             <List items={features} />
           </div>
-          <div>
-            <H3>Options</H3>
-            <List items={options} />
-            {equipment && (
-              <>
-                <H3>Under canopy equipment</H3>
-                <List items={equipment} />
-              </>
-            )}
-          </div>
+          {options && (
+            <div>
+              <H3>Options</H3>
+              <List items={options} />
+              {equipment && (
+                <>
+                  <H3>Under canopy equipment</H3>
+                  <List items={equipment} />
+                </>
+              )}
+            </div>
+          )}
         </Row>
       </Section>
       <Modal isOpen={isOpen} onClose={onClose}>
