@@ -27,7 +27,7 @@ export default function Page() {
             supports makes this mulcher very wear resistant.
           </P>
           <P>
-            echnical requirements for operating a stone crusher on a tractor are creep speeds and a hydraulic
+            Technical requirements for operating a stone crusher on a tractor are creep speeds and a hydraulic
             three-point tractor linkage. Available working width: 125, 150 cm [49", 59"].
           </P>
         </>
