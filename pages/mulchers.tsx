@@ -56,12 +56,7 @@ export default function Services() {
                   'Debris removal in work sites',
                 ]}
               />
-              <Button
-                href="https://www.seppi.com/en-ca/mulcher-mower-shredder-tiller-stump-grinder/stone-crushers-soil-tillers.htmlstone-c"
-                target="_blank"
-              >
-                View More
-              </Button>
+              <Button href="/mulchers/stone-crushers">View More</Button>
             </div>
           </div>
         </Section>
