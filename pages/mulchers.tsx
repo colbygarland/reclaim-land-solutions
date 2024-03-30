@@ -149,12 +149,7 @@ export default function Services() {
                   'Maintenance of railways and ditches',
                 ]}
               />
-              <Button
-                href="https://www.seppi.com/en-ca/mulcher-mower-shredder-tiller-stump-grinder/excavator-mulchers.html"
-                target="_blank"
-              >
-                View More
-              </Button>
+              <Button href="/mulchers/excavator">View More</Button>
             </div>
           </div>
         </Section>
