@@ -177,12 +177,7 @@ export default function Services() {
                 These machines quickly and efficiently grind stumps without a limit to the diameter. Wood and other
                 vegetation will be tilled, ground finely and incorporated into the soil where it will decompose.
               </P>
-              <Button
-                href="https://www.seppi.com/en-ca/mulcher-mower-shredder-tiller-stump-grinder/stump-root-grinders.html"
-                target="_blank"
-              >
-                View More
-              </Button>
+              <Button href="/mulchers/stump-root">View More</Button>
             </div>
           </div>
         </Section>
