@@ -74,7 +74,7 @@ export default function Page() {
       <Hero
         title="Stump and Root Grinders"
         description="Stump and root grinders for excavators, skid steers, and compact loaders."
-        media="/stump.jpeg"
+        media="/stump-root/fc-cover.jpeg"
         condensed
       />
       <Section>

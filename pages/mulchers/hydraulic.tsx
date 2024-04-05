@@ -92,7 +92,7 @@ export default function Page() {
       <Hero
         title="Mulchers for Compact Loaders"
         description="Agricultural attachment for PTO tractors for tractors up to 250 HP"
-        media="/hydraulic.jpeg"
+        media="/hydraulic/microforst-cl-cover.jpeg"
         condensed
       />
       <Section>

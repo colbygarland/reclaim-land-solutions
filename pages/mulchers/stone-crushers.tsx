@@ -74,7 +74,7 @@ export default function Page() {
       <Hero
         title="Stone Crushers and Soil Tillers"
         description="Multi-purpose crushers for PTO tractors. Crushing Stones, mulching wood. Some of the most powerful machines in the Seppi lineup. It is remarkable to watch them work in a wide range of applications!"
-        media="/stone-crusher.jpeg"
+        media="/stone-crushers/maxisoil-cover.jpeg"
         condensed
       />
       <Section>

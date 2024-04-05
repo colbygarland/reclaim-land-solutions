@@ -129,7 +129,7 @@ export default function Flail() {
       <Hero
         title="Flail Mulchers"
         description="Agricultural attachment for PTO tractors for tractors up to 250 HP"
-        media="/flail-mulcher.jpeg"
+        media="/flails/s7-base-cover.jpg"
         condensed
       />
       <Section>

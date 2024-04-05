@@ -74,7 +74,7 @@ export default function Page() {
       <Hero
         title="PTO Forestry Mulchers"
         description="Agricultural attachment for PTO tractors for tractors up to 500 HP. Ideal for forestry maintenance."
-        media="/forestry-mulcher.jpeg"
+        media="/forestry/maxiforst-cover.jpeg"
         condensed
       />
       <Section>

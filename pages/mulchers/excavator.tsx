@@ -110,7 +110,7 @@ export default function Page() {
       <Hero
         title="Excavator Mulchers"
         description="Agricultural attachment for excavators from 2-45 tons. Ideal for forestry maintenance."
-        media="/excavator.jpeg"
+        media="/excavator/bms-f-cover.jpeg"
         condensed
       />
       <Section>
