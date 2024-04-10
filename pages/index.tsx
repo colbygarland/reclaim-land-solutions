@@ -20,7 +20,7 @@ export default function Home() {
         buttonLink="/services"
         buttonText="Our Services"
       />
-      <Section>
+      <Section type="tertiary">
         <H3>
           <span className="text-primary-600">Who are we?</span>
         </H3>
@@ -31,7 +31,7 @@ export default function Home() {
         </P>
         <Button href="/about">Read More</Button>
       </Section>
-      <Section type="tertiary">
+      {/* <Section type="tertiary">
         <H2>Social Proof (this heading would be removed)</H2>
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
           <div className="h-40 w-40 rounded-full bg-gray-200 mx-auto" />
@@ -39,7 +39,7 @@ export default function Home() {
           <div className="h-40 w-40 rounded-full bg-gray-200 mx-auto" />
           <div className="h-40 w-40 rounded-full bg-gray-200 mx-auto" />
         </div>
-      </Section>
+      </Section> */}
       <Section>
         <MediaBlock
           title="What do we do?"
