@@ -20,7 +20,7 @@ export default function Home() {
         buttonLink="/services"
         buttonText="Our Services"
       />
-      <Section>
+      <Section type="tertiary">
         <H3>
           <span className="text-primary-600">Who are we?</span>
         </H3>
@@ -31,14 +31,23 @@ export default function Home() {
         </P>
         <Button href="/about">Read More</Button>
       </Section>
-      <Section type="tertiary">
+      {/* <Section type="tertiary">
+        <H2>Social Proof (this heading would be removed)</H2>
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
+          <div className="h-40 w-40 rounded-full bg-gray-200 mx-auto" />
+          <div className="h-40 w-40 rounded-full bg-gray-200 mx-auto" />
+          <div className="h-40 w-40 rounded-full bg-gray-200 mx-auto" />
+          <div className="h-40 w-40 rounded-full bg-gray-200 mx-auto" />
+        </div>
+      </Section> */}
+      <Section>
         <MediaBlock
           title="What do we do?"
           subtitle="Reclaim Your Land"
           description="With the ever increasing cost of agricultural land, farmers want to utilize every acre available. Whether it
           is trees, brush, or low laying wet areas, Reclaim Land Solutions wants to provide farmers with the ability to
           reclaim and work the land they already own."
-          imageSrc="/placeholder-image.jpeg"
+          imageSrc="/MINIFORST-24-2867.jpg"
           imageAlt="Mulcher"
           button={<Button href="/contact">Book a Demo</Button>}
           imageAlignment="right"
@@ -76,12 +85,13 @@ export default function Home() {
       </Section>
       <Section backgroundImage="/placeholder-image-5.jpg">
         <Popout
-          title="Book a Demo"
-          description="Reclaim Land Solutions wants to provide farmers the ability to reclaim their land. Whether it is trees, brush, or low laying we areas, RLS will allow you to work the land you already own."
+          title="Nolan Dyck"
+          description="Thank you to Reclaim Land Solutions for the demo tonight with your new Seppi M. USA mulcher, and the launching of your Seppi dealership here in Grande Prairie. It is great to see the continued growth of our forestry and Ag. develop here in the North!"
           imageSrc="/image-placeholder-4.avif"
           imageAlt="Mulcher"
           imageAlignment="right"
           color="white"
+          isTestimonial
         />
       </Section>
     </>
