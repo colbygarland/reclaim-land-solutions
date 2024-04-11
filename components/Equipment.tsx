@@ -80,7 +80,7 @@ export function Equipment({
           <div className="bg-gray-100">
             <ModalHeader>Buy Now</ModalHeader>
             <ModalBody>
-              <form name="buy-now" method="POST" data-netlify="true" action="?success=1">
+              <form name="buy-now" method="POST" data-netlify="true" action={`${router.asPath}?success=1`}>
                 <input type="hidden" name="form-name" value="buy-now" />
                 <InputGroup name="name" label="Name" required />
                 <InputGroup name="email" label="Email Address" required />
