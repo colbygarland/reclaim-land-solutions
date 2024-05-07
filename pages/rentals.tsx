@@ -29,11 +29,12 @@ export default function Rentals() {
               )!
             </P>
             <P>Weighting under 4000lbs, you can tow this mulcher on a trailer behind a ½ truck.</P>
-            <P>
+            <div className="flex flex-col gap-2 md:flex-row md:gap-4">
               <Button href="https://www.youtube.com/shorts/a8Td5kllCnY" target="_blank">
                 View video
               </Button>
-            </P>
+              <Button href="#inquiry">Learn more</Button>
+            </div>
             <H3>Rates</H3>
             <Ul items={['Day - $950', 'Week - $3000', 'Month - $9250']} />
           </div>
@@ -53,28 +54,31 @@ export default function Rentals() {
               mulched finished product. Its currently rigged for a Cat 289, but it can be set-up and used with any brand
               and high or low flow machines.
             </P>
-            <P>
+            <div className="flex flex-col gap-2 md:flex-row md:gap-4">
               <Button href="https://www.youtube.com/watch?v=1MFZOms6NDE" target="_blank">
                 View video
               </Button>
-            </P>
+              <Button href="#inquiry">Learn more</Button>
+            </div>
             <H3>Rates</H3>
             <Ul items={['Day - $475', 'Week - $1425', 'Month - $4250']} />
           </div>
         </div>
       </Section>
       <Section>
-        <H2>Need a rental unit?</H2>
-        <form name="rentals" method="POST" data-netlify="true" action="/rentals?success=1">
-          <input type="hidden" name="form-name" value="rentals" />
-          <InputGroup name="name" label="Name" required />
-          <InputGroup name="email" label="Email Address" required />
-          <InputGroup name="phone" label="Phone Number" type="tel" required />
-          <InputGroup name="description" label="Description" required />
-          <button type="submit" className={`${defaultButtonStyles} ${buttonType['primary']}`}>
-            Submit
-          </button>
-        </form>
+        <div id="inquiry">
+          <H2>Need a rental unit?</H2>
+          <form name="rentals" method="POST" data-netlify="true" action="/rentals?success=1">
+            <input type="hidden" name="form-name" value="rentals" />
+            <InputGroup name="name" label="Name" required />
+            <InputGroup name="email" label="Email Address" required />
+            <InputGroup name="phone" label="Phone Number" type="tel" required />
+            <InputGroup name="description" label="Description" required />
+            <button type="submit" className={`${defaultButtonStyles} ${buttonType['primary']}`}>
+              Submit
+            </button>
+          </form>
+        </div>
       </Section>
     </>
   )
