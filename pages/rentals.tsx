@@ -1,4 +1,4 @@
-import { defaultButtonStyles, buttonType } from '../components/Button'
+import { defaultButtonStyles, buttonType, Button } from '../components/Button'
 import { P, Ul } from '../components/Elements'
 import { H2, H3 } from '../components/Headings'
 import { Hero } from '../components/Hero'
@@ -8,11 +8,11 @@ import { Section } from '../components/Section'
 export default function Rentals() {
   return (
     <>
-      <Hero title="Rentals" media="/image-placeholder-4.avif" condensed />
+      <Hero title="Rentals" media="/rental-cover.jpg" condensed />
       <Section>
-        <div className="md:grid grid-cols-2">
+        <div className="md:grid grid-cols-2 gap-4 lg:gap-8">
           <div>
-            <img src="https://place-hold.it/500x300" alt="" />
+            <img src="/rental-1.jpg" alt="rental unit" />
           </div>
           <div>
             <H2>Rental Units</H2>
@@ -30,9 +30,9 @@ export default function Rentals() {
             </P>
             <P>Weighting under 4000lbs, you can tow this mulcher on a trailer behind a ½ truck.</P>
             <P>
-              <a className="font-bold" href="https://www.youtube.com/shorts/a8Td5kllCnY" target="_blank">
+              <Button href="https://www.youtube.com/shorts/a8Td5kllCnY" target="_blank">
                 View video
-              </a>
+              </Button>
             </P>
             <H3>Rates</H3>
             <Ul items={['Day - $950', 'Week - $3000', 'Month - $9250']} />
@@ -40,9 +40,9 @@ export default function Rentals() {
         </div>
       </Section>
       <Section type="tertiary">
-        <div className="md:grid grid-cols-2">
+        <div className="md:grid grid-cols-2 gap-4 lg:gap-8">
           <div>
-            <img src="https://place-hold.it/500x300" alt="" />
+            <img src="/remote.jpg" alt="remote unit" />
           </div>
           <div>
             <H2>Skid Steer Mulcher</H2>
@@ -54,9 +54,9 @@ export default function Rentals() {
               and high or low flow machines.
             </P>
             <P>
-              <a className="font-bold" href="https://www.youtube.com/watch?v=1MFZOms6NDE" target="_blank">
+              <Button href="https://www.youtube.com/watch?v=1MFZOms6NDE" target="_blank">
                 View video
-              </a>
+              </Button>
             </P>
             <H3>Rates</H3>
             <Ul items={['Day - $475', 'Week - $1425', 'Month - $4250']} />
