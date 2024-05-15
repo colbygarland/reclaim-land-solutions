@@ -12,7 +12,7 @@ export default function Rentals() {
       <Section>
         <div className="md:grid grid-cols-2 gap-4 lg:gap-8">
           <div>
-            <img src="/rental-1.jpg" alt="rental unit" />
+            <img src="/remote.jpg" alt="remote unit" />
           </div>
           <div>
             <H2>Rental Units</H2>
@@ -43,7 +43,7 @@ export default function Rentals() {
       <Section type="tertiary">
         <div className="md:grid grid-cols-2 gap-4 lg:gap-8">
           <div>
-            <img src="/remote.jpg" alt="remote unit" />
+            <img src="/rental-1.jpg" alt="rental unit" />
           </div>
           <div>
             <H2>Skid Steer Mulcher</H2>
