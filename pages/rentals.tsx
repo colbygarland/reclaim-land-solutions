@@ -28,7 +28,7 @@ export default function Rentals() {
               </a>
               )!
             </P>
-            <P>Weighting under 4000lbs, you can tow this mulcher on a trailer behind a ½ truck.</P>
+            <P>Weighting under 4000lbs, you can tow this mulcher on a trailer behind a ½ ton truck.</P>
             <div className="flex flex-col gap-2 md:flex-row md:gap-4">
               <Button href="https://www.youtube.com/shorts/a8Td5kllCnY" target="_blank">
                 View video
