@@ -5,6 +5,7 @@ import { Hero } from '../../components/Hero'
 import { Row } from '../../components/Row'
 import { Section } from '../../components/Section'
 import Link from 'next/link'
+import { MediaBlock } from '../../components/MediaBlock'
 
 const attachments = [
   {
@@ -77,6 +78,15 @@ export default function Page() {
         media="/stump-root/fc-cover.jpeg"
         condensed
       />
+      <Section padding="top">
+        <MediaBlock
+          title="Seppi M StarFC 100"
+          subtitle="Mulch Anything, Anywhere"
+          description="View product in action."
+          videoSrc="https://www.youtube.com/embed/WmE5Piw0YtM?si=iGiOKt23aMxaWfVE"
+          imageAlignment="right"
+        />
+      </Section>
       <Section>
         <Row>
           {attachments.map((attachment) => (

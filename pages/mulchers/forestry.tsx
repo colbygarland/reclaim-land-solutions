@@ -5,6 +5,7 @@ import { Hero } from '../../components/Hero'
 import { Row } from '../../components/Row'
 import { Section } from '../../components/Section'
 import Link from 'next/link'
+import { MediaBlock } from '../../components/MediaBlock'
 
 const attachments = [
   {
@@ -77,6 +78,15 @@ export default function Page() {
         media="/forestry/maxiforst-cover.jpeg"
         condensed
       />
+      <Section padding="top">
+        <MediaBlock
+          title="Seppi M MidiForst"
+          subtitle="Mulch Anything, Anywhere"
+          description="View product in action."
+          videoSrc="https://www.youtube.com/embed/kJssrkm1WZA?si=MrVym7RU4DyMfyBa"
+          imageAlignment="right"
+        />
+      </Section>
       <Section>
         <Row>
           {attachments.map((attachment) => (
