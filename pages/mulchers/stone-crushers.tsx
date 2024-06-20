@@ -5,6 +5,8 @@ import { Hero } from '../../components/Hero'
 import { Row } from '../../components/Row'
 import { Section } from '../../components/Section'
 import Link from 'next/link'
+import { MediaBlock } from '../../components/MediaBlock'
+import { Button } from '../../components/Button'
 
 const attachments = [
   {
@@ -77,6 +79,15 @@ export default function Page() {
         media="/stone-crushers/maxisoil-cover.jpeg"
         condensed
       />
+      <Section padding="top">
+        <MediaBlock
+          title="Seppi M StarSoil 250"
+          subtitle="Mulch Anything, Anywhere"
+          description="View product in action."
+          videoSrc="https://www.youtube.com/embed/UvyQQroeE5A?si=8cSI-2lXsGCvRneC"
+          imageAlignment="right"
+        />
+      </Section>
       <Section>
         <Row>
           {attachments.map((attachment) => (
