@@ -6,7 +6,6 @@ import { Row } from '../../components/Row'
 import { Section } from '../../components/Section'
 import Link from 'next/link'
 import { MediaBlock } from '../../components/MediaBlock'
-import { Button } from '../../components/Button'
 
 const attachments = [
   {
