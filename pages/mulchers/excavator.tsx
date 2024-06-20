@@ -119,7 +119,7 @@ export default function Page() {
           title="Seppi M BMS-F and H3"
           subtitle="Mulch Anything, Anywhere"
           description="View product in action."
-          videoSrc="https://www.youtube.com/embed/ey0L6WYxjFQ?si=WfavdC_zJytgcC0J"
+          videoSrc="https://www.youtube.com/embed/wFH86_J37lk?si=wOO-fjRhA39Is8gM"
           imageAlignment="right"
         />
       </Section>
