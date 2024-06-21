@@ -17,7 +17,7 @@ export const Footer = () => {
               Website by{' '}
               <a
                 className="font-bold transition duration-150 hover:text-gray-300"
-                href="https://github.com/colbygarland"
+                href="https://colbygarland.vercel.app/"
                 target="_blank"
               >
                 Colby Garland

@@ -5,6 +5,8 @@ import { Hero } from '../../components/Hero'
 import { Row } from '../../components/Row'
 import { Section } from '../../components/Section'
 import Link from 'next/link'
+import { MediaBlock } from '../../components/MediaBlock'
+import { YOUTUBE_LINKS } from '../../constants'
 
 const attachments = [
   {
@@ -132,6 +134,15 @@ export default function Flail() {
         media="/flails/s7-base-cover.jpg"
         condensed
       />
+      <Section padding="top">
+        <MediaBlock
+          title="Seppi M SMWA 175"
+          subtitle="Mulch Anything, Anywhere"
+          description="View product in action."
+          videoSrc={YOUTUBE_LINKS.flail}
+          imageAlignment="right"
+        />
+      </Section>
       <Section>
         <Row>
           {attachments.map((attachment) => (

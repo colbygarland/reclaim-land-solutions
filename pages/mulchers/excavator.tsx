@@ -5,6 +5,8 @@ import { Hero } from '../../components/Hero'
 import { Row } from '../../components/Row'
 import { Section } from '../../components/Section'
 import Link from 'next/link'
+import { MediaBlock } from '../../components/MediaBlock'
+import { YOUTUBE_LINKS } from '../../constants'
 
 const attachments = [
   {
@@ -113,6 +115,15 @@ export default function Page() {
         media="/excavator/bms-f-cover.jpeg"
         condensed
       />
+      <Section padding="top">
+        <MediaBlock
+          title="Seppi M BMS-F and H3"
+          subtitle="Mulch Anything, Anywhere"
+          description="View product in action."
+          videoSrc={YOUTUBE_LINKS.excavator}
+          imageAlignment="right"
+        />
+      </Section>
       <Section>
         <Row>
           {attachments.map((attachment) => (
