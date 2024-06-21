@@ -84,6 +84,9 @@ export const Header = () => {
               <MenuItem onClick={closeMenu} href="/rentals">
                 Rentals
               </MenuItem>
+              <MenuItem onClick={closeMenu} href="/resources">
+                Resources
+              </MenuItem>
               <MenuItem onClick={closeMenu} href="/about">
                 About
               </MenuItem>

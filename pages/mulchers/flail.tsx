@@ -6,6 +6,7 @@ import { Row } from '../../components/Row'
 import { Section } from '../../components/Section'
 import Link from 'next/link'
 import { MediaBlock } from '../../components/MediaBlock'
+import { YOUTUBE_LINKS } from '../../constants'
 
 const attachments = [
   {
@@ -138,7 +139,7 @@ export default function Flail() {
           title="Seppi M SMWA 175"
           subtitle="Mulch Anything, Anywhere"
           description="View product in action."
-          videoSrc="https://www.youtube.com/embed/UrcZ4-nFo00?si=USDNqbDv0BSsFFsc"
+          videoSrc={YOUTUBE_LINKS.flail}
           imageAlignment="right"
         />
       </Section>

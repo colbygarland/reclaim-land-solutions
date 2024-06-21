@@ -6,6 +6,7 @@ import { Row } from '../../components/Row'
 import { Section } from '../../components/Section'
 import Link from 'next/link'
 import { MediaBlock } from '../../components/MediaBlock'
+import { YOUTUBE_LINKS } from '../../constants'
 
 const attachments = [
   {
@@ -101,7 +102,7 @@ export default function Page() {
           title="Seppi M MiniForst CL 175"
           subtitle="Mulch Anything, Anywhere"
           description="View product in action."
-          videoSrc="https://www.youtube.com/embed/1MFZOms6NDE?si=GH1A5gXWigYgJXyP"
+          videoSrc={YOUTUBE_LINKS.hydraulic}
           imageAlignment="right"
         />
       </Section>

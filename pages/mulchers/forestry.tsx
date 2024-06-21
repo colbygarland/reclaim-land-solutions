@@ -6,6 +6,7 @@ import { Row } from '../../components/Row'
 import { Section } from '../../components/Section'
 import Link from 'next/link'
 import { MediaBlock } from '../../components/MediaBlock'
+import { YOUTUBE_LINKS } from '../../constants'
 
 const attachments = [
   {
@@ -83,7 +84,7 @@ export default function Page() {
           title="Seppi M MidiForst"
           subtitle="Mulch Anything, Anywhere"
           description="View product in action."
-          videoSrc="https://www.youtube.com/embed/kJssrkm1WZA?si=MrVym7RU4DyMfyBa"
+          videoSrc={YOUTUBE_LINKS.forestry}
           imageAlignment="right"
         />
       </Section>

@@ -6,6 +6,7 @@ import { Row } from '../../components/Row'
 import { Section } from '../../components/Section'
 import Link from 'next/link'
 import { MediaBlock } from '../../components/MediaBlock'
+import { YOUTUBE_LINKS } from '../../constants'
 
 const attachments = [
   {
@@ -83,7 +84,7 @@ export default function Page() {
           title="Seppi M StarSoil 250"
           subtitle="Mulch Anything, Anywhere"
           description="View product in action."
-          videoSrc="https://www.youtube.com/embed/UvyQQroeE5A?si=8cSI-2lXsGCvRneC"
+          videoSrc={YOUTUBE_LINKS.stoneCrushers}
           imageAlignment="right"
         />
       </Section>
